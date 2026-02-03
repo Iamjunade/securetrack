@@ -26,6 +26,9 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final ImageView btnBack;
 
   @NonNull
+  public final LinearLayout btnCheckUpdates;
+
+  @NonNull
   public final LinearLayout btnShareApp;
 
   @NonNull
@@ -47,12 +50,13 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final MaterialToolbar toolbar;
 
   private ActivitySettingsBinding(@NonNull FrameLayout rootView, @NonNull ImageView btnBack,
-      @NonNull LinearLayout btnShareApp, @NonNull LinearLayout rowChangePassword,
-      @NonNull LinearLayout rowChangePin, @NonNull LinearLayout settingsContent,
-      @NonNull SwitchMaterial switchProtection, @NonNull SwitchMaterial switchWipe,
-      @NonNull MaterialToolbar toolbar) {
+      @NonNull LinearLayout btnCheckUpdates, @NonNull LinearLayout btnShareApp,
+      @NonNull LinearLayout rowChangePassword, @NonNull LinearLayout rowChangePin,
+      @NonNull LinearLayout settingsContent, @NonNull SwitchMaterial switchProtection,
+      @NonNull SwitchMaterial switchWipe, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.btnBack = btnBack;
+    this.btnCheckUpdates = btnCheckUpdates;
     this.btnShareApp = btnShareApp;
     this.rowChangePassword = rowChangePassword;
     this.rowChangePin = rowChangePin;
@@ -92,6 +96,12 @@ public final class ActivitySettingsBinding implements ViewBinding {
       id = R.id.btnBack;
       ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
+        break missingId;
+      }
+
+      id = R.id.btnCheckUpdates;
+      LinearLayout btnCheckUpdates = ViewBindings.findChildViewById(rootView, id);
+      if (btnCheckUpdates == null) {
         break missingId;
       }
 
@@ -137,8 +147,9 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySettingsBinding((FrameLayout) rootView, btnBack, btnShareApp,
-          rowChangePassword, rowChangePin, settingsContent, switchProtection, switchWipe, toolbar);
+      return new ActivitySettingsBinding((FrameLayout) rootView, btnBack, btnCheckUpdates,
+          btnShareApp, rowChangePassword, rowChangePin, settingsContent, switchProtection,
+          switchWipe, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

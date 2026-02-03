@@ -74,6 +74,7 @@ drawable step_indicator_inactive
 id backgroundGradient
 id bottomNavContainer
 id btnBack
+id btnCheckUpdates
 id btnDelete
 id btnEdit
 id btnNext

@@ -1,82 +1,82 @@
 [
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/dialog_change_pin.xml",
-        "source": "com.securetrack.app-main-6:/layout/dialog_change_pin.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/step_welcome.xml",
+        "source": "com.securetrack.app-main-61:/layout/step_welcome.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/item_contact.xml",
-        "source": "com.securetrack.app-main-6:/layout/item_contact.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/step_permissions.xml",
+        "source": "com.securetrack.app-main-61:/layout/step_permissions.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/activity_fake_shutdown.xml",
-        "source": "com.securetrack.app-main-6:/layout/activity_fake_shutdown.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/item_contact.xml",
+        "source": "com.securetrack.app-main-61:/layout/item_contact.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/item_log_card.xml",
-        "source": "com.securetrack.app-main-6:/layout/item_log_card.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/item_command_holo.xml",
+        "source": "com.securetrack.app-main-61:/layout/item_command_holo.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/item_command.xml",
-        "source": "com.securetrack.app-main-6:/layout/item_command.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/item_command_log.xml",
+        "source": "com.securetrack.app-main-61:/layout/item_command_log.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/dialog_change_password.xml",
-        "source": "com.securetrack.app-main-6:/layout/dialog_change_password.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/step_complete.xml",
+        "source": "com.securetrack.app-main-61:/layout/step_complete.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/step_pin.xml",
-        "source": "com.securetrack.app-main-6:/layout/step_pin.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/activity_logs.xml",
+        "source": "com.securetrack.app-main-61:/layout/activity_logs.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/step_welcome.xml",
-        "source": "com.securetrack.app-main-6:/layout/step_welcome.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/activity_settings.xml",
+        "source": "com.securetrack.app-main-61:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/activity_main.xml",
-        "source": "com.securetrack.app-main-6:/layout/activity_main.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/step_pin.xml",
+        "source": "com.securetrack.app-main-61:/layout/step_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/item_command_log.xml",
-        "source": "com.securetrack.app-main-6:/layout/item_command_log.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/activity_main.xml",
+        "source": "com.securetrack.app-main-61:/layout/activity_main.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/dialog_contact.xml",
-        "source": "com.securetrack.app-main-6:/layout/dialog_contact.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/dialog_change_password.xml",
+        "source": "com.securetrack.app-main-61:/layout/dialog_change_password.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/activity_settings.xml",
-        "source": "com.securetrack.app-main-6:/layout/activity_settings.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/item_log_card.xml",
+        "source": "com.securetrack.app-main-61:/layout/item_log_card.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/step_password.xml",
-        "source": "com.securetrack.app-main-6:/layout/step_password.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/step_password.xml",
+        "source": "com.securetrack.app-main-61:/layout/step_password.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/item_command_holo.xml",
-        "source": "com.securetrack.app-main-6:/layout/item_command_holo.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/activity_contacts.xml",
+        "source": "com.securetrack.app-main-61:/layout/activity_contacts.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/step_permissions.xml",
-        "source": "com.securetrack.app-main-6:/layout/step_permissions.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/dialog_change_pin.xml",
+        "source": "com.securetrack.app-main-61:/layout/dialog_change_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/activity_setup_wizard.xml",
-        "source": "com.securetrack.app-main-6:/layout/activity_setup_wizard.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/dialog_wipe_pin.xml",
+        "source": "com.securetrack.app-main-61:/layout/dialog_wipe_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/activity_contacts.xml",
-        "source": "com.securetrack.app-main-6:/layout/activity_contacts.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/activity_fake_shutdown.xml",
+        "source": "com.securetrack.app-main-61:/layout/activity_fake_shutdown.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/activity_logs.xml",
-        "source": "com.securetrack.app-main-6:/layout/activity_logs.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/item_command.xml",
+        "source": "com.securetrack.app-main-61:/layout/item_command.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/step_complete.xml",
-        "source": "com.securetrack.app-main-6:/layout/step_complete.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/dialog_contact.xml",
+        "source": "com.securetrack.app-main-61:/layout/dialog_contact.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-3:/layout/dialog_wipe_pin.xml",
-        "source": "com.securetrack.app-main-6:/layout/dialog_wipe_pin.xml"
+        "merged": "com.securetrack.app-mergeDebugResources-58:/layout/activity_setup_wizard.xml",
+        "source": "com.securetrack.app-main-61:/layout/activity_setup_wizard.xml"
     }
 ]

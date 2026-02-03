@@ -75,6 +75,11 @@ class SettingsActivity : AppCompatActivity() {
             showChangePasswordDialog()
         }
 
+        // Check for Updates
+        findViewById<android.view.View>(R.id.btnCheckUpdates).setOnClickListener {
+             com.securetrack.utils.UpdateChecker.checkForUpdates(this, true)
+        }
+
         // Share App (APK)
         findViewById<android.view.View>(R.id.btnShareApp).setOnClickListener {
             shareAppApk()

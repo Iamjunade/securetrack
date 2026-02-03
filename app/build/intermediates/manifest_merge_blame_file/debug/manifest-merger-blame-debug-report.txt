@@ -10,85 +10,85 @@
 10
 11    <!-- SMS Permissions -->
 12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-12-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:6:5-70
-12-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:6:22-67
+12-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:6:5-70
+12-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:6:22-67
 13    <uses-permission android:name="android.permission.SEND_SMS" />
-13-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:7:5-67
-13-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:7:22-64
+13-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:7:22-64
 14    <uses-permission android:name="android.permission.READ_SMS" />
-14-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:8:5-67
-14-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:8:22-64
+14-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:8:22-64
 15
 16    <!-- Location Permissions -->
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:11:5-79
-17-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:11:22-76
+17-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:11:22-76
 18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-18-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:12:5-81
-18-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:12:22-78
+18-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:12:22-78
 19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-19-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:13:5-85
-19-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:13:22-82
+19-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:13:5-85
+19-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:13:22-82
 20
 21    <!-- Phone Permissions -->
 22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-22-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:16:5-75
-22-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:16:22-72
+22-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:16:5-75
+22-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:16:22-72
 23    <uses-permission android:name="android.permission.CALL_PHONE" />
-23-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:17:5-69
-23-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:17:22-66
+23-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:17:5-69
+23-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:17:22-66
 24
 25    <!-- Service Permissions -->
 26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-26-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:20:5-77
-26-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:20:22-74
+26-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:20:5-77
+26-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:20:22-74
 27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
-27-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:21:5-86
-27-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:21:22-83
+27-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:21:5-86
+27-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:21:22-83
 28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
-28-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:22:5-89
-28-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:22:22-86
+28-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:22:5-89
+28-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:22:22-86
 29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-29-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:23:5-81
-29-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:23:22-78
+29-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:23:5-81
+29-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:23:22-78
 30    <uses-permission android:name="android.permission.WAKE_LOCK" />
-30-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:24:5-68
-30-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:24:22-65
+30-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:24:5-68
+30-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:24:22-65
 31
 32    <!-- Audio/Siren Permissions -->
 33    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
-33-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:27:5-85
-33-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:27:22-82
+33-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:27:5-85
+33-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:27:22-82
 34    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-34-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:28:5-80
-34-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:28:22-77
+34-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:28:5-80
+34-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:28:22-77
 35
 36    <!-- System Permissions -->
 37    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-37-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:31:5-78
-37-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:31:22-75
+37-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:31:5-78
+37-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:31:22-75
 38    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
-38-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:32:5-76
-38-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:32:22-73
+38-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:32:5-76
+38-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:32:22-73
 39    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-39-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:33:5-109
-39-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:33:22-70
+39-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:33:5-109
+39-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:33:22-70
 40
 41    <!-- Vibration -->
 42    <uses-permission android:name="android.permission.VIBRATE" />
-42-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:36:5-66
-42-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:36:22-63
+42-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:36:5-66
+42-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:36:22-63
 43
 44    <!-- Network Permissions -->
 45    <uses-permission android:name="android.permission.INTERNET" />
-45-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:39:5-67
-45-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:39:22-64
+45-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:39:5-67
+45-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:39:22-64
 46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-46-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:40:5-79
-46-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:40:22-76
+46-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:40:5-79
+46-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:40:22-76
 47    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-47-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:41:5-83
-47-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:41:22-80
+47-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:41:5-83
+47-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:41:22-80
 48
 49    <permission
 49-->[androidx.core:core:1.12.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\38d8680aa6673a791c816129c4d9c472\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -102,310 +102,310 @@
 53-->[androidx.core:core:1.12.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\38d8680aa6673a791c816129c4d9c472\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 54
 55    <application
-55-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:43:5-214:19
+55-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:43:5-214:19
 56        android:name="com.securetrack.SecureTrackApp"
-56-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:44:9-39
+56-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:44:9-39
 57        android:allowBackup="false"
-57-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:45:9-36
+57-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:45:9-36
 58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 58-->[androidx.core:core:1.12.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\38d8680aa6673a791c816129c4d9c472\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 59        android:debuggable="true"
 60        android:extractNativeLibs="false"
 61        android:icon="@mipmap/ic_launcher"
-61-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:46:9-43
+61-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:46:9-43
 62        android:label="@string/app_name"
-62-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:47:9-41
+62-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:47:9-41
 63        android:roundIcon="@mipmap/ic_launcher_round"
-63-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:48:9-54
+63-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:48:9-54
 64        android:supportsRtl="true"
-64-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:49:9-35
+64-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:49:9-35
 65        android:theme="@style/Theme.SecureTrack" >
-65-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:50:9-49
+65-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:50:9-49
 66
 67        <!-- Main Activity -->
 68        <activity
-68-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:54:9-62:20
+68-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:54:9-62:20
 69            android:name="com.securetrack.ui.MainActivity"
-69-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:55:13-44
+69-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:55:13-44
 70            android:exported="true"
-70-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:56:13-36
+70-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:56:13-36
 71            android:theme="@style/Theme.SecureTrack" >
-71-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:57:13-53
+71-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:57:13-53
 72            <intent-filter>
-72-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:58:13-61:29
+72-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:58:13-61:29
 73                <action android:name="android.intent.action.MAIN" />
-73-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:59:17-69
-73-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:59:25-66
+73-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:59:17-69
+73-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:59:25-66
 74
 75                <category android:name="android.intent.category.LAUNCHER" />
-75-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:60:17-77
-75-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:60:27-74
+75-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:60:17-77
+75-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:60:27-74
 76            </intent-filter>
 77        </activity>
 78
 79        <!-- Setup Wizard -->
 80        <activity
-80-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:65:9-68:56
+80-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:65:9-68:56
 81            android:name="com.securetrack.ui.SetupWizardActivity"
-81-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:66:13-51
+81-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:66:13-51
 82            android:exported="false"
-82-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:67:13-37
+82-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:67:13-37
 83            android:theme="@style/Theme.SecureTrack" />
-83-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:68:13-53
+83-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:68:13-53
 84
 85        <!-- Contacts Activity -->
 86        <activity
-86-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:71:9-74:56
+86-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:71:9-74:56
 87            android:name="com.securetrack.ui.ContactsActivity"
-87-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:72:13-48
+87-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:72:13-48
 88            android:exported="false"
-88-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:73:13-37
+88-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:73:13-37
 89            android:theme="@style/Theme.SecureTrack" />
-89-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:74:13-53
+89-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:74:13-53
 90
 91        <!-- Settings Activity -->
 92        <activity
-92-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:77:9-80:56
+92-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:77:9-80:56
 93            android:name="com.securetrack.ui.SettingsActivity"
-93-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:78:13-48
+93-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:78:13-48
 94            android:exported="false"
-94-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:79:13-37
+94-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:79:13-37
 95            android:theme="@style/Theme.SecureTrack" />
-95-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:80:13-53
+95-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:80:13-53
 96
 97        <!-- Logs Activity -->
 98        <activity
-98-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:83:9-86:56
+98-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:83:9-86:56
 99            android:name="com.securetrack.ui.LogsActivity"
-99-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:84:13-44
+99-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:84:13-44
 100            android:exported="false"
-100-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:85:13-37
+100-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:85:13-37
 101            android:theme="@style/Theme.SecureTrack" />
-101-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:86:13-53
+101-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:86:13-53
 102
 103        <!-- Fake Shutdown Activity -->
 104        <activity
-104-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:89:9-95:40
+104-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:89:9-95:40
 105            android:name="com.securetrack.ui.FakeShutdownActivity"
-105-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:90:13-52
+105-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:90:13-52
 106            android:excludeFromRecents="true"
-106-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:91:13-46
+106-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:91:13-46
 107            android:exported="false"
-107-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:95:13-37
+107-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:95:13-37
 108            android:launchMode="singleTop"
-108-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:92:13-43
+108-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:92:13-43
 109            android:screenOrientation="portrait"
-109-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:93:13-49
+109-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:93:13-49
 110            android:theme="@style/Theme.AppCompat.NoActionBar" />
-110-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:94:13-63
+110-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:94:13-63
 111
 112        <!-- SMS Receiver - High Priority -->
 113        <receiver
-113-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:98:9-106:20
+113-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:98:9-106:20
 114            android:name="com.securetrack.receivers.SmsReceiver"
-114-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:99:13-50
+114-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:99:13-50
 115            android:enabled="true"
-115-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:100:13-35
+115-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:100:13-35
 116            android:exported="true"
-116-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:101:13-36
+116-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:101:13-36
 117            android:permission="android.permission.BROADCAST_SMS" >
-117-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:102:13-66
+117-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:102:13-66
 118            <intent-filter android:priority="999" >
-118-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:103:13-105:29
-118-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:103:28-50
+118-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:103:13-105:29
+118-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:103:28-50
 119                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-119-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:104:17-82
-119-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:104:25-79
+119-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:104:17-82
+119-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:104:25-79
 120            </intent-filter>
 121        </receiver>
 122
 123        <!-- Boot Receiver -->
 124        <receiver
-124-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:109:9-118:20
+124-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:109:9-118:20
 125            android:name="com.securetrack.receivers.BootReceiver"
-125-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:110:13-51
+125-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:110:13-51
 126            android:enabled="true"
-126-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:111:13-35
+126-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:111:13-35
 127            android:exported="true" >
-127-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:112:13-36
+127-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:112:13-36
 128            <intent-filter>
-128-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:113:13-117:29
+128-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:113:13-117:29
 129                <action android:name="android.intent.action.BOOT_COMPLETED" />
-129-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:114:17-79
-129-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:114:25-76
+129-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:114:17-79
+129-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:114:25-76
 130                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-130-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:115:17-82
-130-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:115:25-79
+130-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:115:17-82
+130-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:115:25-79
 131                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-131-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:116:17-86
-131-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:116:25-83
+131-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:116:17-86
+131-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:116:25-83
 132            </intent-filter>
 133        </receiver>
 134
 135        <!-- SIM Change Receiver -->
 136        <receiver
-136-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:121:9-128:20
+136-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:121:9-128:20
 137            android:name="com.securetrack.receivers.SimChangeReceiver"
-137-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:122:13-56
+137-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:122:13-56
 138            android:enabled="true"
-138-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:123:13-35
+138-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:123:13-35
 139            android:exported="true" >
-139-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:124:13-36
+139-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:124:13-36
 140            <intent-filter>
-140-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:125:13-127:29
+140-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:125:13-127:29
 141                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
-141-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:126:17-82
-141-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:126:25-79
+141-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:126:17-82
+141-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:126:25-79
 142            </intent-filter>
 143        </receiver>
 144
 145        <!-- Airplane Mode Receiver -->
 146        <receiver
-146-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:131:9-138:20
+146-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:131:9-138:20
 147            android:name="com.securetrack.receivers.AirplaneModeReceiver"
-147-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:132:13-59
+147-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:132:13-59
 148            android:enabled="true"
-148-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:133:13-35
+148-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:133:13-35
 149            android:exported="true" >
-149-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:134:13-36
+149-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:134:13-36
 150            <intent-filter>
-150-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:135:13-137:29
+150-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:135:13-137:29
 151                <action android:name="android.intent.action.AIRPLANE_MODE" />
-151-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:136:17-78
-151-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:136:25-75
+151-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:136:17-78
+151-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:136:25-75
 152            </intent-filter>
 153        </receiver>
 154
 155        <!-- Device Administrator -->
 156        <receiver
-156-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:141:9-153:20
+156-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:141:9-153:20
 157            android:name="com.securetrack.admin.SecureTrackDeviceAdmin"
-157-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:142:13-57
+157-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:142:13-57
 158            android:exported="true"
-158-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:143:13-36
+158-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:143:13-36
 159            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-159-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:144:13-70
+159-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:144:13-70
 160            <meta-data
-160-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:145:13-147:65
+160-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:145:13-147:65
 161                android:name="android.app.device_admin"
-161-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:146:17-56
+161-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:146:17-56
 162                android:resource="@xml/device_admin_policies" />
-162-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:147:17-62
+162-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:147:17-62
 163
 164            <intent-filter>
-164-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:148:13-152:29
+164-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:148:13-152:29
 165                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
-165-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:149:17-82
-165-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:149:25-79
+165-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:149:17-82
+165-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:149:25-79
 166                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
-166-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:150:17-83
-166-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:150:25-80
+166-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:150:17-83
+166-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:150:25-80
 167                <action android:name="android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED" />
-167-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:151:17-92
-167-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:151:25-89
+167-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:151:17-92
+167-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:151:25-89
 168            </intent-filter>
 169        </receiver>
 170
 171        <!-- Core Protection Foreground Service -->
 172        <service
-172-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:156:9-164:19
+172-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:156:9-164:19
 173            android:name="com.securetrack.services.CoreProtectionService"
-173-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:157:13-59
+173-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:157:13-59
 174            android:enabled="true"
-174-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:158:13-35
+174-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:158:13-35
 175            android:exported="false"
-175-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:159:13-37
+175-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:159:13-37
 176            android:foregroundServiceType="specialUse" >
-176-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:160:13-55
+176-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:160:13-55
 177            <property
-177-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:161:13-163:57
+177-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:161:13-163:57
 178                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-178-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:162:17-76
+178-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:162:17-76
 179                android:value="anti-theft protection" />
-179-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:163:17-54
+179-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:163:17-54
 180        </service>
 181
 182        <!-- Location Service -->
 183        <service
-183-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:167:9-171:56
+183-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:167:9-171:56
 184            android:name="com.securetrack.services.LocationService"
-184-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:168:13-53
+184-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:168:13-53
 185            android:enabled="true"
-185-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:169:13-35
+185-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:169:13-35
 186            android:exported="false"
-186-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:170:13-37
+186-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:170:13-37
 187            android:foregroundServiceType="location" />
-187-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:171:13-53
+187-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:171:13-53
 188
 189        <!-- Siren Service -->
 190        <service
-190-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:174:9-182:19
+190-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:174:9-182:19
 191            android:name="com.securetrack.services.SirenService"
-191-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:175:13-50
+191-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:175:13-50
 192            android:enabled="true"
-192-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:176:13-35
+192-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:176:13-35
 193            android:exported="false"
-193-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:177:13-37
+193-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:177:13-37
 194            android:foregroundServiceType="specialUse" >
-194-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:178:13-55
+194-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:178:13-55
 195            <property
-195-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:161:13-163:57
+195-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:161:13-163:57
 196                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-196-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:162:17-76
+196-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:162:17-76
 197                android:value="emergency alarm" />
-197-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:163:17-54
+197-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:163:17-54
 198        </service>
 199
 200        <!-- Call Service -->
 201        <service
-201-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:185:9-188:40
+201-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:185:9-188:40
 202            android:name="com.securetrack.services.CallService"
-202-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:186:13-49
+202-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:186:13-49
 203            android:enabled="true"
-203-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:187:13-35
+203-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:187:13-35
 204            android:exported="false" />
-204-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:188:13-37
+204-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:188:13-37
 205
 206        <!-- Status Bar Blocker Accessibility Service -->
 207        <service
-207-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:191:9-201:19
+207-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:191:9-201:19
 208            android:name="com.securetrack.services.StatusBarBlockerService"
-208-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:192:13-61
+208-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:192:13-61
 209            android:exported="true"
-209-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:193:13-36
+209-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:193:13-36
 210            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
-210-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:194:13-79
+210-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:194:13-79
 211            <intent-filter>
-211-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:195:13-197:29
+211-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:195:13-197:29
 212                <action android:name="android.accessibilityservice.AccessibilityService" />
-212-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:196:17-92
-212-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:196:25-89
+212-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:196:17-92
+212-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:196:25-89
 213            </intent-filter>
 214
 215            <meta-data
-215-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:198:13-200:72
+215-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:198:13-200:72
 216                android:name="android.accessibilityservice"
-216-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:199:17-60
+216-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:199:17-60
 217                android:resource="@xml/accessibility_service_config" />
-217-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:200:17-69
+217-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:200:17-69
 218        </service>
 219
 220        <!-- FileProvider for APK Sharing -->
 221        <provider
 222            android:name="androidx.core.content.FileProvider"
-222-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:205:13-62
+222-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:205:13-62
 223            android:authorities="com.securetrack.provider"
-223-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:206:13-60
+223-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:206:13-60
 224            android:exported="false"
-224-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:207:13-37
+224-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:207:13-37
 225            android:grantUriPermissions="true" >
-225-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:208:13-47
+225-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:208:13-47
 226            <meta-data
-226-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:209:13-211:58
+226-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:209:13-211:58
 227                android:name="android.support.FILE_PROVIDER_PATHS"
-227-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:210:17-67
+227-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:210:17-67
 228                android:resource="@xml/provider_paths" />
-228-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:211:17-55
+228-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:211:17-55
 229        </provider>
 230
 231        <activity
@@ -591,8 +591,8 @@
 324            <intent-filter>
 324-->[androidx.work:work-runtime:2.9.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e1e9909dfe765d046e73e29f38c623d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
 325                <action android:name="android.intent.action.BOOT_COMPLETED" />
-325-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:114:17-79
-325-->C:\Users\junaidpasha\.gemini\antigravity\scratch\SecureTrack\app\src\main\AndroidManifest.xml:114:25-76
+325-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:114:17-79
+325-->C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:114:25-76
 326                <action android:name="android.intent.action.TIME_SET" />
 326-->[androidx.work:work-runtime:2.9.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e1e9909dfe765d046e73e29f38c623d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
 326-->[androidx.work:work-runtime:2.9.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e1e9909dfe765d046e73e29f38c623d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70

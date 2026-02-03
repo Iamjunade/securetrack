@@ -28,7 +28,7 @@ import java.util.concurrent.Executors
 object UpdateChecker {
 
     // RAW JSON from user's repo (main branch)
-    private const val UPDATE_URL = "https://raw.githubusercontent.com/lamjunade/securetrack/main/version.json"
+    private const val UPDATE_URL = "https://raw.githubusercontent.com/Iamjunade/securetrack/main/version.json"
     
     // Executor for network operations
     private val executor = Executors.newSingleThreadExecutor()

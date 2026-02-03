@@ -1,250 +1,250 @@
 [
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_item_command_log.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/item_command_log.xml"
+        "merged": "com.securetrack.app-merged_res-59:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.securetrack.app-main-61:/mipmap-hdpi/ic_launcher.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_dialog_contact.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/dialog_contact.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_back.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_back.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_star.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_star.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_check.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_check.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_divider.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/divider.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_item_contact.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/item_contact.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_step_password.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/step_password.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_dashboard.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_dashboard.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.securetrack.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_bottom_nav.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_bottom_nav.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_icon_locate.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_icon_locate.xml"
+        "merged": "com.securetrack.app-merged_res-59:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.securetrack.app-main-61:/mipmap-hdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_add.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_add.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_activity_fake_shutdown.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/activity_fake_shutdown.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/mipmap-hdpi_ic_launcher_round.xml.flat",
-        "source": "com.securetrack.app-main-6:/mipmap-hdpi/ic_launcher_round.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_holographic_gradient.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_holographic_gradient.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_step_indicator_active.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/step_indicator_active.xml"
+        "merged": "com.securetrack.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.securetrack.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_activity_contacts.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/activity_contacts.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_activity_logs.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/activity_logs.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_activity_setup_wizard.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/activity_setup_wizard.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_edit.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_edit.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_step_complete.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/step_complete.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_item_command.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/item_command.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_location.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_location.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_icon_callme.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_icon_callme.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.securetrack.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_error.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_error.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_item_command.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/item_command.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_history.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_history.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_activity_fake_shutdown.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/activity_fake_shutdown.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_step_indicator_inactive.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/step_indicator_inactive.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_icon_siren.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_icon_siren.xml"
+        "merged": "com.securetrack.app-merged_res-59:/xml_accessibility_service_config.xml.flat",
+        "source": "com.securetrack.app-main-61:/xml/accessibility_service_config.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_item_contact.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/item_contact.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_glass_panel.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_glass_panel.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_call.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_call.xml"
+        "merged": "com.securetrack.app-merged_res-59:/xml_provider_paths.xml.flat",
+        "source": "com.securetrack.app-main-61:/xml/provider_paths.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_chevron_right.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_chevron_right.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_contacts.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_contacts.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_command_item.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_command_item.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_icon_locate.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_icon_locate.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_error.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_error.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_dialog_wipe_pin.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/dialog_wipe_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_step_pin.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/step_pin.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_activity_settings.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_delete.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_delete.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_delete.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_delete.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_activity_logs.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/activity_logs.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_location.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_location.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/xml_accessibility_service_config.xml.flat",
-        "source": "com.securetrack.app-main-6:/xml/accessibility_service_config.xml"
+        "merged": "com.securetrack.app-merged_res-59:/xml_device_admin_policies.xml.flat",
+        "source": "com.securetrack.app-main-61:/xml/device_admin_policies.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_step_indicator_inactive.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/step_indicator_inactive.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_step_pin.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/step_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_dashboard.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_dashboard.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_icon_lock.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_icon_lock.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/xml_provider_paths.xml.flat",
-        "source": "com.securetrack.app-main-6:/xml/provider_paths.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_step_password.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/step_password.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_glass_panel.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_glass_panel.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_item_command_log.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/item_command_log.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_dialog_wipe_pin.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/dialog_wipe_pin.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_step_welcome.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/step_welcome.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_stop.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_stop.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_icon_siren.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_icon_siren.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/xml_device_admin_policies.xml.flat",
-        "source": "com.securetrack.app-main-6:/xml/device_admin_policies.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_notification.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_notification.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/mipmap-hdpi_ic_launcher.xml.flat",
-        "source": "com.securetrack.app-main-6:/mipmap-hdpi/ic_launcher.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_add.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_add.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_activity_main.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/activity_main.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_call.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_call.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_step_welcome.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/step_welcome.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_dialog_change_password.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/dialog_change_password.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_check.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_check.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_dialog_contact.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/dialog_contact.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_item_log_card.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/item_log_card.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_star.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_star.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_settings.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_settings.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_dialog_change_pin.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/dialog_change_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_sms.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_sms.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_sync.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_sync.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_icon_callme.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_icon_callme.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_arrow_right.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_edit.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_edit.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_divider.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/divider.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_contacts.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_contacts.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_shield.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_shield.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_siren.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_siren.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_item_log_card.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/item_log_card.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_sync.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_sync.xml"
+        "merged": "com.securetrack.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.securetrack.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_holographic_gradient.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_holographic_gradient.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_siren.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_siren.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_fab_gradient.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_fab_gradient.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_lock.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_lock.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_item_command_holo.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/item_command_holo.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_fab_gradient.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_fab_gradient.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_bottom_nav.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_bottom_nav.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_settings.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_settings.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_dialog_change_password.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/dialog_change_password.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_step_permissions.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/step_permissions.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_notification.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_notification.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_chevron_right.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_activity_settings.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/activity_settings.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_step_complete.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/step_complete.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_dialog_change_pin.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/dialog_change_pin.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_sms.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_sms.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_back.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_back.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_step_indicator_active.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/step_indicator_active.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_arrow_right.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_arrow_right.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_activity_main.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/activity_main.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_bg_icon_lock.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/bg_icon_lock.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_activity_contacts.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/activity_contacts.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_history.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_history.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_activity_setup_wizard.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/activity_setup_wizard.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_lock.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_lock.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_bg_command_item.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/bg_command_item.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_arrow_back.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_arrow_back.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_stop.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_stop.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/layout_step_permissions.xml.flat",
-        "source": "com.securetrack.app-main-6:/layout/step_permissions.xml"
+        "merged": "com.securetrack.app-merged_res-59:/layout_item_command_holo.xml.flat",
+        "source": "com.securetrack.app-main-61:/layout/item_command_holo.xml"
     },
     {
-        "merged": "com.securetrack.app-merged_res-4:/drawable_ic_shield.xml.flat",
-        "source": "com.securetrack.app-main-6:/drawable/ic_shield.xml"
+        "merged": "com.securetrack.app-merged_res-59:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.securetrack.app-main-61:/drawable/ic_arrow_back.xml"
     }
 ]
