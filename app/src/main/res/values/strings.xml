@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">SecureTrack</string>
+    
+    <!-- Setup Wizard -->
+    <string name="setup_title">Setup SecureTrack</string>
+    <string name="setup_welcome_title">Welcome to SecureTrack</string>
+    <string name="setup_welcome_description">Protect your device from theft and unauthorized access with SMS-based remote control.</string>
+    
+    <string name="setup_pin_title">Create Your PIN</string>
+    <string name="setup_pin_description">This 6-digit PIN will be used to authenticate SMS commands.\n\nRequirements:\n• Exactly 6 digits\n• No sequential patterns (123456)\n• No repeated digits (000000)</string>
+    <string name="setup_pin_hint">Enter 6-digit PIN</string>
+    <string name="setup_pin_confirm_hint">Confirm PIN</string>
+    
+    <string name="setup_master_password_title">Master Password</string>
+    <string name="setup_master_password_description">This password protects app settings and is required to disable Device Admin.\n\nRequirements:\n• Minimum 8 characters</string>
+    <string name="setup_master_password_hint">Enter master password</string>
+    <string name="setup_master_password_confirm_hint">Confirm password</string>
+    
+    <string name="setup_permissions_title">Grant Permissions</string>
+    <string name="setup_permissions_description">SecureTrack needs these permissions to protect your device:</string>
+    
+    <string name="setup_contacts_title">Emergency Contacts</string>
+    <string name="setup_contacts_description">Add at least one emergency contact. They will receive alerts if your SIM is changed.</string>
+    
+    <string name="setup_complete_title">Setup Complete!</string>
+    <string name="setup_complete_description">SecureTrack is now protecting your device.\n\nSend SMS commands to control your phone:</string>
+    
+    <!-- Permissions -->
+    <string name="permission_sms">SMS (Receive &amp; Send)</string>
+    <string name="permission_sms_desc">Receive and respond to SMS commands</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_location_desc">Track device location when requested</string>
+    <string name="permission_bg_location">Background Location</string>
+    <string name="permission_bg_location_desc">Get location even when app is closed</string>
+    <string name="permission_phone">Phone</string>
+    <string name="permission_phone_desc">Make calls with #CALLME command</string>
+    <string name="permission_device_admin">Device Administrator</string>
+    <string name="permission_device_admin_desc">Lock device and prevent uninstall</string>
+    <string name="permission_accessibility">Accessibility Service</string>
+    <string name="permission_accessibility_desc">Block notification shade when locked</string>
+    <string name="permission_dnd">Do Not Disturb</string>
+    <string name="permission_dnd_desc">Play siren even in silent mode</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="protection_active">Protection Active</string>
+    <string name="protection_inactive">Protection Inactive</string>
+    <string name="status_all_granted">All permissions granted</string>
+    <string name="status_missing_permissions">Some permissions missing</string>
+    
+    <!-- Commands -->
+    <string name="commands_title">SMS Commands</string>
+    <string name="command_locate">#LOCATE_&lt;PIN&gt;</string>
+    <string name="command_locate_desc">Get device location via SMS</string>
+    <string name="command_siren">#SIREN_&lt;PIN&gt;</string>
+    <string name="command_siren_desc">Trigger max volume alarm</string>
+    <string name="command_lock">#LOCK_&lt;PIN&gt;</string>
+    <string name="command_lock_desc">Lock device screen</string>
+    <string name="command_callme">#CALLME_&lt;PIN&gt;</string>
+    <string name="command_callme_desc">Device calls you back</string>
+    <string name="command_wipe">#WIPE_&lt;8-digit PIN&gt;</string>
+    <string name="command_wipe_desc">Factory reset (if enabled)</string>
+    <string name="command_stopsiren">#STOPSIREN_&lt;PIN&gt;</string>
+    <string name="command_stopsiren_desc">Stop active alarm</string>
+    
+    <!-- Contacts -->
+    <string name="contacts_title">Emergency Contacts</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_phone">Phone Number</string>
+    <string name="set_as_primary">Set as Primary</string>
+    <string name="primary_contact">Primary Contact</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_protection">Protection Settings</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_enable_protection">Enable Protection</string>
+    <string name="settings_enable_wipe">Enable Remote Wipe</string>
+    <string name="settings_enable_wipe_warning">⚠️ This allows factory reset via SMS</string>
+    <string name="settings_wipe_enabled">Enable Remote Wipe</string>
+    <string name="settings_wipe_description">⚠️ Allows factory reset via SMS with 8-digit PIN</string>
+    <string name="settings_change_pin">Change PIN</string>
+    <string name="settings_change_password">Change Master Password</string>
+    <string name="no_contacts">No emergency contacts added yet.\nTap + to add one.</string>
+
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">SecureTrack uses this service to prevent the notification shade from being pulled down when your device is locked. This stops thieves from enabling Airplane Mode to block location tracking.</string>
+    
+    <!-- Buttons -->
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_grant">Grant</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_enable">Enable</string>
+    <string name="btn_disable">Disable</string>
+    
+    <!-- Errors -->
+    <string name="error_pin_invalid">PIN must be 6 digits with no patterns</string>
+    <string name="error_pin_mismatch">PINs do not match</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_contact_required">At least one emergency contact is required</string>
+    <string name="error_phone_invalid">Please enter a valid phone number</string>
+</resources>

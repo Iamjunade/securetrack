@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base dark gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="600dp"
+                android:centerX="0.1"
+                android:centerY="0.1"
+                android:startColor="#407000FF"
+                android:endColor="@android:color/transparent" />
+        </shape>
+    </item>
+    
+    <!-- Cyan orb top right -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:centerX="0.9"
+                android:centerY="0.1"
+                android:startColor="#2600F0FF"
+                android:endColor="@android:color/transparent" />
+        </shape>
+    </item>
+    
+    <!-- Pink orb bottom right -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="500dp"
+                android:centerX="0.8"
+                android:centerY="0.8"
+                android:startColor="#26FF00AA"
+                android:endColor="@android:color/transparent" />
+        </shape>
+    </item>
+    
+    <!-- Cyan orb bottom left -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="350dp"
+                android:centerX="0.15"
+                android:centerY="0.9"
+                android:startColor="#3300F0FF"
+                android:endColor="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

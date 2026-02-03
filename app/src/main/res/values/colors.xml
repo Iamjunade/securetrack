@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Holographic Primary Colors -->
+    <color name="primary">#00F0FF</color>           <!-- Neon Cyan -->
+    <color name="primary_dark">#00BCD4</color>
+    <color name="primary_light">#80F0FF</color>
+    <color name="secondary">#7000FF</color>         <!-- Deep Electric Purple -->
+    <color name="accent">#FF00AA</color>            <!-- Hot Pink -->
+    
+    <!-- Dark Theme Backgrounds -->
+    <color name="background_dark">#050511</color>   <!-- Deep space black -->
+    <color name="background_light">#0f0c29</color>  <!-- Slightly lighter for fallback -->
+    <color name="surface_dark">#0D0D1E</color>      <!-- Card surfaces -->
+    
+    <!-- Glass Panel Colors -->
+    <color name="glass_surface">#0D0D0D1E</color>   <!-- 40% opacity dark -->
+    <color name="glass_border">#14FFFFFF</color>    <!-- 8% white border -->
+    <color name="glass_highlight">#14FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#9CA3AF</color>  <!-- Gray-400 -->
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="text_muted">#6B7280</color>
+    
+    <!-- Status Colors with Glow -->
+    <color name="status_active">#22C55E</color>     <!-- Green-500 -->
+    <color name="status_inactive">#EF4444</color>   <!-- Red-500 -->
+    <color name="status_warning">#F59E0B</color>    <!-- Amber-500 -->
+    
+    <!-- Command Colors -->
+    <color name="cmd_locate">#3B82F6</color>        <!-- Blue -->
+    <color name="cmd_locate_bg">#1A3B82F6</color>   <!-- Blue with transparency -->
+    <color name="cmd_siren">#F97316</color>         <!-- Orange -->
+    <color name="cmd_siren_bg">#1AF97316</color>
+    <color name="cmd_lock">#06B6D4</color>          <!-- Cyan -->
+    <color name="cmd_lock_bg">#1A06B6D4</color>
+    <color name="cmd_callme">#10B981</color>        <!-- Emerald -->
+    <color name="cmd_callme_bg">#1A10B981</color>
+    
+    <!-- Gradient Orb Colors -->
+    <color name="orb_purple">#407000FF</color>       <!-- 25% purple -->
+    <color name="orb_cyan">#2600F0FF</color>        <!-- 15% cyan -->
+    <color name="orb_pink">#26FF00AA</color>        <!-- 15% pink -->
+    
+    <!-- UI Elements -->
+    <color name="card_background">#660D0D1E</color>
+    <color name="divider">#14FFFFFF</color>
+    <color name="icon_tint">#9CA3AF</color>
+    
+    <!-- Permission Status -->
+    <color name="permission_granted">#22C55E</color>
+    <color name="permission_denied">#EF4444</color>
+    
+    <!-- Legacy -->
+    <color name="siren_alert">#EF4444</color>
+</resources>

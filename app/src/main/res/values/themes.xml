@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Holographic Dark Theme -->
+    <style name="Theme.SecureTrack" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/secondary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorAccent">@color/accent</item>
+        
+        <!-- Transparent bars for immersive experience -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Dark background -->
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="Theme.SecureTrack.Text.Title" parent="">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+
+    <style name="Theme.SecureTrack.Text.Subtitle" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+    </style>
+
+    <style name="Theme.SecureTrack.Text.Command" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <!-- Glass Card Style -->
+    <style name="Theme.SecureTrack.GlassCard" parent="">
+        <item name="android:background">@drawable/bg_glass_panel</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Theme.SecureTrack.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/background_dark</item>
+    </style>
+
+    <style name="Theme.SecureTrack.Button.Danger" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/status_inactive</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

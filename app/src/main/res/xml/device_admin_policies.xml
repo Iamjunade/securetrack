@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- Lock the device screen -->
+        <force-lock />
+        
+        <!-- Monitor login attempts -->
+        <watch-login />
+        
+        <!-- Reset password capability -->
+        <reset-password />
+        
+        <!-- Wipe device data (enabled only when user explicitly enables) -->
+        <wipe-data />
+        
+        <!-- Limit password options -->
+        <limit-password />
+    </uses-policies>
+</device-admin>
