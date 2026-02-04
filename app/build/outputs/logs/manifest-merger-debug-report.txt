@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:204:9-212:20
+INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:207:9-215:20
 	android:grantUriPermissions
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:208:13-47
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:211:13-47
 	android:authorities
 		INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:206:13-60
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:209:13-60
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:207:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:210:13-37
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:205:13-62
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:208:13-62
 manifest
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-216:12
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:2:1-219:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\junaidpasha\.gradle\caches\transforms-3\225b65cd920c60f1df7ead955a741b87\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\junaidpasha\.gradle\caches\transforms-3\92d6b8f5323d856a44ac144531129464\transformed\navigation-common-2.7.6\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\junaidpasha\.gradle\caches\transforms-3\dd8726ec7de1bcd39db72d3f656cd64a\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
@@ -27,6 +27,11 @@ MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\junaidpasha\.grad
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\158e238f407d6667fbc6f1d7e9bbe619\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\junaidpasha\.gradle\caches\transforms-3\1a5285a2e3dccfba99273ce4b0d04bf4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:6.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\7e10c8a2dd5a4284927b9a5f67f3df7a\transformed\lottie-6.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.camera:camera-video:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\d82995c409d9fbf1d8cdabe61898b708\transformed\camera-video-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\af3ea0fb8d0c96918cab89e4ab22fd7a\transformed\camera-lifecycle-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8ca2b6212253afac99aa6e141587bd15\transformed\camera-core-1.3.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ff4d929753901b26a26dbee6c0ef2e96\transformed\camera-view-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\40bec1602de00886fcabdd7dc1a706ac\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\c3b3d4244363cfcdf7f9d44efce096cd\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\a3b94951c9dc415f3b8a514c4c7b739a\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -56,10 +61,10 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\junaidpasha\.gradle\caches\t
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\520d515dca0010dc5b3b297f443293b5\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\c24800a51773f1da025e26a9f347eaa9\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.core:core:1.12.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\38d8680aa6673a791c816129c4d9c472\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\cdd8436b2bfc43028cac9f7a36a1eb85\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b053b487c7d6a0b64381ee7d14225130\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e8970625d1b5f6a56198507eafb4a9d0\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\d80fb3a2cf3d9c4d910519d9cdf1ca9a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\cdd8436b2bfc43028cac9f7a36a1eb85\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b053b487c7d6a0b64381ee7d14225130\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\146415340bd3d0c86ea09309809b3e29\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ce637b62817f070d1c11dcc7a29628a5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\0d2fb35ab702a5b7449f874c312609bf\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
@@ -74,12 +79,13 @@ MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\junaidpasha\.gradle\cach
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\0069fda4e0fcaf355bb10f3e6b3cf479\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\2ee6f8c5a293a918ecd77969023d5700\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ad56fa3af6f6ed88ef6c09df4624cf3c\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8130256c7130c2e3243476fbb2887ac5\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b8ddf23866bed3281df82c3180030a99\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\junaidpasha\.gradle\caches\transforms-3\0bac73da9a2120202fba471bc7f5c138\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\fb9a29e1daba8533b005a99025419857\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\527c2641df9d6059bd1812f0610e3141\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\599b3501f1f586ce6c54b14acbfc34d0\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\da214fceaa8b2f67747c4fdd28207b07\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\junaidpasha\.gradle\caches\transforms-3\23670c3f31e9902e8d42c60df17a6517\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\4cc19c360fb8731688fbee17c6a1da72\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\6924fa5f5351d6479e5932da807bf5c6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\84fed8869e3cc9407e9fe1a6da4f79e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
@@ -181,29 +187,49 @@ uses-permission#android.permission.VIBRATE
 ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:36:5-66
 	android:name
 		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:36:22-63
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:37:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:39:5-67
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:40:5-67
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:39:22-64
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:40:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:40:5-79
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:41:5-79
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e1e9909dfe765d046e73e29f38c623d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e1e9909dfe765d046e73e29f38c623d9\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:40:22-76
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:41:22-76
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:41:5-83
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:42:5-83
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:41:22-80
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:42:22-80
+uses-feature#android.hardware.camera
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:43:5-84
+	android:required
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:43:58-81
+	android:name
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:43:19-57
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:44:5-90
+	android:required
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:44:64-87
+	android:name
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:44:19-63
 application
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:43:5-214:19
-INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:43:5-214:19
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:46:5-217:19
+INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:46:5-217:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\158e238f407d6667fbc6f1d7e9bbe619\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\158e238f407d6667fbc6f1d7e9bbe619\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\junaidpasha\.gradle\caches\transforms-3\1a5285a2e3dccfba99273ce4b0d04bf4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\junaidpasha\.gradle\caches\transforms-3\1a5285a2e3dccfba99273ce4b0d04bf4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:6.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\7e10c8a2dd5a4284927b9a5f67f3df7a\transformed\lottie-6.3.0\AndroidManifest.xml:7:5-20
 MERGED from [com.airbnb.android:lottie:6.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\7e10c8a2dd5a4284927b9a5f67f3df7a\transformed\lottie-6.3.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8ca2b6212253afac99aa6e141587bd15\transformed\camera-core-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8ca2b6212253afac99aa6e141587bd15\transformed\camera-core-1.3.0\AndroidManifest.xml:23:5-34:19
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\44328289593211117eeda99098691011\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\44328289593211117eeda99098691011\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\0c5ce47084a2e2431990ced8a0773740\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
@@ -235,251 +261,251 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\junaidpasha\.gradl
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\38d8680aa6673a791c816129c4d9c472\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:49:9-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:52:9-35
 	android:label
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:47:9-41
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:50:9-41
 	android:roundIcon
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:48:9-54
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:51:9-54
 	tools:targetApi
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:51:9-29
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:54:9-29
 	android:icon
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:46:9-43
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:49:9-43
 	android:allowBackup
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:45:9-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:48:9-36
 	android:theme
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:50:9-49
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:53:9-49
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:44:9-39
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:47:9-39
 activity#com.securetrack.ui.MainActivity
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:54:9-62:20
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:57:9-65:20
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:59:13-36
 	android:theme
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:57:13-53
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:60:13-53
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:55:13-44
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:58:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:58:13-61:29
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:61:13-64:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:59:17-69
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:62:17-69
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:59:25-66
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:62:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:63:27-74
 activity#com.securetrack.ui.SetupWizardActivity
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:65:9-68:56
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:68:9-71:56
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:67:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:70:13-37
 	android:theme
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:68:13-53
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:71:13-53
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:66:13-51
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:69:13-51
 activity#com.securetrack.ui.ContactsActivity
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:71:9-74:56
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:74:9-77:56
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:73:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:76:13-37
 	android:theme
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:74:13-53
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:77:13-53
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:72:13-48
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:75:13-48
 activity#com.securetrack.ui.SettingsActivity
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:77:9-80:56
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:80:9-83:56
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:79:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:82:13-37
 	android:theme
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:80:13-53
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:83:13-53
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:78:13-48
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:81:13-48
 activity#com.securetrack.ui.LogsActivity
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:83:9-86:56
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:86:9-89:56
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:85:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:88:13-37
 	android:theme
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:86:13-53
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:89:13-53
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:84:13-44
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:87:13-44
 activity#com.securetrack.ui.FakeShutdownActivity
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:89:9-95:40
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:92:9-98:40
 	android:screenOrientation
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:96:13-49
 	android:excludeFromRecents
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:91:13-46
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:94:13-46
 	android:launchMode
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:92:13-43
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:95:13-43
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:95:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:98:13-37
 	android:theme
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:94:13-63
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:97:13-63
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:90:13-52
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:93:13-52
 receiver#com.securetrack.receivers.SmsReceiver
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:98:9-106:20
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:101:9-109:20
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:100:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:103:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:101:13-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:104:13-36
 	android:permission
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:102:13-66
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:105:13-66
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:99:13-50
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:102:13-50
 intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:103:13-105:29
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:106:13-108:29
 	android:priority
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:103:28-50
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:106:28-50
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:104:17-82
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:107:17-82
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:104:25-79
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:107:25-79
 receiver#com.securetrack.receivers.BootReceiver
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:109:9-118:20
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:112:9-121:20
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:111:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:114:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:112:13-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:115:13-36
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:110:13-51
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:113:13-51
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:113:13-117:29
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:116:13-120:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:114:17-79
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:117:17-79
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:114:25-76
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:117:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:115:17-82
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:118:17-82
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:115:25-79
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:118:25-79
 action#android.intent.action.LOCKED_BOOT_COMPLETED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:116:17-86
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:119:17-86
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:116:25-83
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:119:25-83
 receiver#com.securetrack.receivers.SimChangeReceiver
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:121:9-128:20
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:124:9-131:20
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:123:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:126:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:124:13-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:127:13-36
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:122:13-56
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:125:13-56
 intent-filter#action:name:android.intent.action.SIM_STATE_CHANGED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:125:13-127:29
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:128:13-130:29
 action#android.intent.action.SIM_STATE_CHANGED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:126:17-82
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:129:17-82
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:126:25-79
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:129:25-79
 receiver#com.securetrack.receivers.AirplaneModeReceiver
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:131:9-138:20
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:134:9-141:20
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:133:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:136:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:134:13-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:137:13-36
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:132:13-59
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:135:13-59
 intent-filter#action:name:android.intent.action.AIRPLANE_MODE
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:135:13-137:29
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:138:13-140:29
 action#android.intent.action.AIRPLANE_MODE
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:136:17-78
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:139:17-78
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:136:25-75
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:139:25-75
 receiver#com.securetrack.admin.SecureTrackDeviceAdmin
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:141:9-153:20
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:144:9-156:20
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:143:13-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:146:13-36
 	android:permission
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:144:13-70
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:147:13-70
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:142:13-57
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:145:13-57
 meta-data#android.app.device_admin
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:145:13-147:65
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:148:13-150:65
 	android:resource
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:147:17-62
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:150:17-62
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:146:17-56
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:149:17-56
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_DISABLED+action:name:android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED+action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:148:13-152:29
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:151:13-155:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:149:17-82
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:152:17-82
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:149:25-79
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:152:25-79
 action#android.app.action.DEVICE_ADMIN_DISABLED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:150:17-83
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:153:17-83
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:150:25-80
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:153:25-80
 action#android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:151:17-92
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:154:17-92
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:151:25-89
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:154:25-89
 service#com.securetrack.services.CoreProtectionService
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:156:9-164:19
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:159:9-167:19
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:158:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:161:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:159:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:162:13-37
 	android:foregroundServiceType
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:160:13-55
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:163:13-62
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:157:13-59
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:160:13-59
 property
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:161:13-163:57
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:164:13-166:57
 	android:value
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:163:17-54
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:166:17-54
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:162:17-76
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:165:17-76
 service#com.securetrack.services.LocationService
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:167:9-171:56
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:170:9-174:56
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:169:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:172:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:170:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:173:13-37
 	android:foregroundServiceType
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:174:13-53
+	android:name
 		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:171:13-53
-	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:168:13-53
 service#com.securetrack.services.SirenService
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:174:9-182:19
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:177:9-185:19
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:176:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:179:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:177:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:180:13-37
 	android:foregroundServiceType
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:178:13-55
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:181:13-55
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:175:13-50
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:178:13-50
 service#com.securetrack.services.CallService
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:185:9-188:40
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:188:9-191:40
 	android:enabled
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:187:13-35
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:190:13-35
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:188:13-37
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:191:13-37
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:186:13-49
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:189:13-49
 service#com.securetrack.services.StatusBarBlockerService
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:191:9-201:19
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:194:9-204:19
 	android:exported
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:193:13-36
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:196:13-36
 	android:permission
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:194:13-79
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:197:13-79
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:192:13-61
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:195:13-61
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:195:13-197:29
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:198:13-200:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:196:17-92
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:199:17-92
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:196:25-89
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:199:25-89
 meta-data#android.accessibilityservice
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:198:13-200:72
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:201:13-203:72
 	android:resource
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:200:17-69
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:203:17-69
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:199:17-60
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:202:17-60
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:209:13-211:58
+ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:212:13-214:58
 	android:resource
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:211:17-55
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:214:17-55
 	android:name
-		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:210:17-67
+		ADDED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml:213:17-67
 uses-sdk
 INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml
@@ -508,6 +534,16 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\junaidpa
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\junaidpasha\.gradle\caches\transforms-3\1a5285a2e3dccfba99273ce4b0d04bf4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:6.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\7e10c8a2dd5a4284927b9a5f67f3df7a\transformed\lottie-6.3.0\AndroidManifest.xml:5:5-44
 MERGED from [com.airbnb.android:lottie:6.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\7e10c8a2dd5a4284927b9a5f67f3df7a\transformed\lottie-6.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\d82995c409d9fbf1d8cdabe61898b708\transformed\camera-video-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\d82995c409d9fbf1d8cdabe61898b708\transformed\camera-video-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\af3ea0fb8d0c96918cab89e4ab22fd7a\transformed\camera-lifecycle-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\af3ea0fb8d0c96918cab89e4ab22fd7a\transformed\camera-lifecycle-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8ca2b6212253afac99aa6e141587bd15\transformed\camera-core-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8ca2b6212253afac99aa6e141587bd15\transformed\camera-core-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ff4d929753901b26a26dbee6c0ef2e96\transformed\camera-view-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ff4d929753901b26a26dbee6c0ef2e96\transformed\camera-view-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\40bec1602de00886fcabdd7dc1a706ac\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\40bec1602de00886fcabdd7dc1a706ac\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\c3b3d4244363cfcdf7f9d44efce096cd\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
@@ -566,14 +602,14 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\junaidpasha\.gradle\caches\t
 MERGED from [androidx.window:window:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\c24800a51773f1da025e26a9f347eaa9\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.12.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\38d8680aa6673a791c816129c4d9c472\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.12.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\38d8680aa6673a791c816129c4d9c472\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\cdd8436b2bfc43028cac9f7a36a1eb85\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\cdd8436b2bfc43028cac9f7a36a1eb85\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b053b487c7d6a0b64381ee7d14225130\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b053b487c7d6a0b64381ee7d14225130\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e8970625d1b5f6a56198507eafb4a9d0\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\e8970625d1b5f6a56198507eafb4a9d0\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\d80fb3a2cf3d9c4d910519d9cdf1ca9a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\d80fb3a2cf3d9c4d910519d9cdf1ca9a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\cdd8436b2bfc43028cac9f7a36a1eb85\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\cdd8436b2bfc43028cac9f7a36a1eb85\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b053b487c7d6a0b64381ee7d14225130\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b053b487c7d6a0b64381ee7d14225130\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\146415340bd3d0c86ea09309809b3e29\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\146415340bd3d0c86ea09309809b3e29\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ce637b62817f070d1c11dcc7a29628a5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
@@ -602,8 +638,8 @@ MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\junaidpasha\.gradl
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\2ee6f8c5a293a918ecd77969023d5700\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ad56fa3af6f6ed88ef6c09df4624cf3c\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\ad56fa3af6f6ed88ef6c09df4624cf3c\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8130256c7130c2e3243476fbb2887ac5\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8130256c7130c2e3243476fbb2887ac5\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b8ddf23866bed3281df82c3180030a99\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\b8ddf23866bed3281df82c3180030a99\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\junaidpasha\.gradle\caches\transforms-3\0bac73da9a2120202fba471bc7f5c138\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
 MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\junaidpasha\.gradle\caches\transforms-3\0bac73da9a2120202fba471bc7f5c138\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\fb9a29e1daba8533b005a99025419857\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -614,6 +650,8 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\junaidpasha\.gradle
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\599b3501f1f586ce6c54b14acbfc34d0\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\da214fceaa8b2f67747c4fdd28207b07\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\junaidpasha\.gradle\caches\transforms-3\da214fceaa8b2f67747c4fdd28207b07\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\junaidpasha\.gradle\caches\transforms-3\23670c3f31e9902e8d42c60df17a6517\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\junaidpasha\.gradle\caches\transforms-3\23670c3f31e9902e8d42c60df17a6517\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\4cc19c360fb8731688fbee17c6a1da72\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\4cc19c360fb8731688fbee17c6a1da72\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\6924fa5f5351d6479e5932da807bf5c6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
@@ -632,6 +670,26 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\junaidpasha\.gradle\caches\tra
 		INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\junaidpasha\Downloads\SecureTrack\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8ca2b6212253afac99aa6e141587bd15\transformed\camera-core-1.3.0\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\8ca2b6212253afac99aa6e141587bd15\transformed\camera-core-1.3.0\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\cb0e5e99582babafb71e4cba6b42e954\transformed\camera-camera2-1.3.0\AndroidManifest.xml:31:17-103
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\junaidpasha\.gradle\caches\transforms-3\0c5ce47084a2e2431990ced8a0773740\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
 	android:exported

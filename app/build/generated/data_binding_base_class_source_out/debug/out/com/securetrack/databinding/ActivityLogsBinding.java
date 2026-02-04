@@ -28,13 +28,22 @@ public final class ActivityLogsBinding implements ViewBinding {
   public final RecyclerView recyclerLogs;
 
   @NonNull
+  public final TextView tabCommands;
+
+  @NonNull
+  public final TextView tabIntruders;
+
+  @NonNull
   public final TextView txtEmptyState;
 
   private ActivityLogsBinding(@NonNull FrameLayout rootView, @NonNull ImageView btnBack,
-      @NonNull RecyclerView recyclerLogs, @NonNull TextView txtEmptyState) {
+      @NonNull RecyclerView recyclerLogs, @NonNull TextView tabCommands,
+      @NonNull TextView tabIntruders, @NonNull TextView txtEmptyState) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.recyclerLogs = recyclerLogs;
+    this.tabCommands = tabCommands;
+    this.tabIntruders = tabIntruders;
     this.txtEmptyState = txtEmptyState;
   }
 
@@ -77,13 +86,26 @@ public final class ActivityLogsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tabCommands;
+      TextView tabCommands = ViewBindings.findChildViewById(rootView, id);
+      if (tabCommands == null) {
+        break missingId;
+      }
+
+      id = R.id.tabIntruders;
+      TextView tabIntruders = ViewBindings.findChildViewById(rootView, id);
+      if (tabIntruders == null) {
+        break missingId;
+      }
+
       id = R.id.txtEmptyState;
       TextView txtEmptyState = ViewBindings.findChildViewById(rootView, id);
       if (txtEmptyState == null) {
         break missingId;
       }
 
-      return new ActivityLogsBinding((FrameLayout) rootView, btnBack, recyclerLogs, txtEmptyState);
+      return new ActivityLogsBinding((FrameLayout) rootView, btnBack, recyclerLogs, tabCommands,
+          tabIntruders, txtEmptyState);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

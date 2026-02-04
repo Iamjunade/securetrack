@@ -69,6 +69,7 @@ drawable ic_sms
 drawable ic_star
 drawable ic_stop
 drawable ic_sync
+drawable ic_upload
 drawable step_indicator_active
 drawable step_indicator_inactive
 id backgroundGradient
@@ -110,6 +111,7 @@ id imgAdminStatus
 id imgAvatar
 id imgDndStatus
 id imgIcon
+id imgIntruder
 id imgLocationStatus
 id imgLogStatus
 id imgPhoneStatus
@@ -145,6 +147,8 @@ id step4
 id step5
 id switchProtection
 id switchWipe
+id tabCommands
+id tabIntruders
 id toolbar
 id txtAction
 id txtCommand
@@ -153,6 +157,7 @@ id txtContactName
 id txtContactPhone
 id txtDescription
 id txtEmptyState
+id txtLocation
 id txtLogCommand
 id txtLogResult
 id txtLogSender
@@ -163,6 +168,7 @@ id txtResult
 id txtStatusDetail
 id txtStatusTitle
 id txtTime
+id txtTimestamp
 id viewPager
 layout activity_contacts
 layout activity_fake_shutdown
@@ -178,6 +184,7 @@ layout item_command
 layout item_command_holo
 layout item_command_log
 layout item_contact
+layout item_intruder_log
 layout item_log_card
 layout step_complete
 layout step_password

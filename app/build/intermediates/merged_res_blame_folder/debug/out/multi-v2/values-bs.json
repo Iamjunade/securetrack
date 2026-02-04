@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.securetrack.app-mergeDebugResources-57:/values-bs/values-bs.xml",
+            "outputFile": "com.securetrack.app-mergeDebugResources-62:/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\junaidpasha\\.gradle\\caches\\transforms-3\\158e238f407d6667fbc6f1d7e9bbe619\\transformed\\material-1.11.0\\res\\values-bs\\values-bs.xml",

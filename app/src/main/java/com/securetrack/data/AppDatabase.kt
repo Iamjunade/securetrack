@@ -11,13 +11,15 @@ import com.securetrack.data.entities.EmergencyContact
 @Database(
     entities = [
         EmergencyContact::class,
-        CommandLog::class
+        CommandLog::class,
+        com.securetrack.data.IntruderLog::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun emergencyContactDao(): EmergencyContactDao
     abstract fun commandLogDao(): CommandLogDao
+    abstract fun intruderLogDao(): com.securetrack.data.IntruderLogDao
 }

@@ -34,22 +34,26 @@ public final class AppDatabase_Impl extends AppDatabase {
 
   private volatile CommandLogDao _commandLogDao;
 
+  private volatile IntruderLogDao _intruderLogDao;
+
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `emergency_contacts` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `phoneNumber` TEXT NOT NULL, `isPrimary` INTEGER NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS `command_logs` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `command` TEXT NOT NULL, `senderNumber` TEXT NOT NULL, `timestamp` INTEGER NOT NULL, `status` TEXT NOT NULL, `resultMessage` TEXT, `locationLat` REAL, `locationLng` REAL)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `intruder_logs` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `imagePath` TEXT NOT NULL, `timestamp` INTEGER NOT NULL, `location` TEXT NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '72b10d5ab4d157dc11347811b529af95')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '0b47aff43af965aab0ac90b61a8611e5')");
       }
 
       @Override
       public void dropAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("DROP TABLE IF EXISTS `emergency_contacts`");
         db.execSQL("DROP TABLE IF EXISTS `command_logs`");
+        db.execSQL("DROP TABLE IF EXISTS `intruder_logs`");
         final List<? extends RoomDatabase.Callback> _callbacks = mCallbacks;
         if (_callbacks != null) {
           for (RoomDatabase.Callback _callback : _callbacks) {
@@ -127,9 +131,23 @@ public final class AppDatabase_Impl extends AppDatabase {
                   + " Expected:\n" + _infoCommandLogs + "\n"
                   + " Found:\n" + _existingCommandLogs);
         }
+        final HashMap<String, TableInfo.Column> _columnsIntruderLogs = new HashMap<String, TableInfo.Column>(4);
+        _columnsIntruderLogs.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsIntruderLogs.put("imagePath", new TableInfo.Column("imagePath", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsIntruderLogs.put("timestamp", new TableInfo.Column("timestamp", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsIntruderLogs.put("location", new TableInfo.Column("location", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        final HashSet<TableInfo.ForeignKey> _foreignKeysIntruderLogs = new HashSet<TableInfo.ForeignKey>(0);
+        final HashSet<TableInfo.Index> _indicesIntruderLogs = new HashSet<TableInfo.Index>(0);
+        final TableInfo _infoIntruderLogs = new TableInfo("intruder_logs", _columnsIntruderLogs, _foreignKeysIntruderLogs, _indicesIntruderLogs);
+        final TableInfo _existingIntruderLogs = TableInfo.read(db, "intruder_logs");
+        if (!_infoIntruderLogs.equals(_existingIntruderLogs)) {
+          return new RoomOpenHelper.ValidationResult(false, "intruder_logs(com.securetrack.data.IntruderLog).\n"
+                  + " Expected:\n" + _infoIntruderLogs + "\n"
+                  + " Found:\n" + _existingIntruderLogs);
+        }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "72b10d5ab4d157dc11347811b529af95", "504690285373fa4f2987ffe96739eaf2");
+    }, "0b47aff43af965aab0ac90b61a8611e5", "a0b9d59faff55e28c6c390433d54e309");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;
@@ -140,7 +158,7 @@ public final class AppDatabase_Impl extends AppDatabase {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     final HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
-    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "emergency_contacts","command_logs");
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "emergency_contacts","command_logs","intruder_logs");
   }
 
   @Override
@@ -151,6 +169,7 @@ public final class AppDatabase_Impl extends AppDatabase {
       super.beginTransaction();
       _db.execSQL("DELETE FROM `emergency_contacts`");
       _db.execSQL("DELETE FROM `command_logs`");
+      _db.execSQL("DELETE FROM `intruder_logs`");
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();
@@ -167,6 +186,7 @@ public final class AppDatabase_Impl extends AppDatabase {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
     _typeConvertersMap.put(EmergencyContactDao.class, EmergencyContactDao_Impl.getRequiredConverters());
     _typeConvertersMap.put(CommandLogDao.class, CommandLogDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(IntruderLogDao.class, IntruderLogDao_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -209,6 +229,20 @@ public final class AppDatabase_Impl extends AppDatabase {
           _commandLogDao = new CommandLogDao_Impl(this);
         }
         return _commandLogDao;
+      }
+    }
+  }
+
+  @Override
+  public IntruderLogDao intruderLogDao() {
+    if (_intruderLogDao != null) {
+      return _intruderLogDao;
+    } else {
+      synchronized(this) {
+        if(_intruderLogDao == null) {
+          _intruderLogDao = new IntruderLogDao_Impl(this);
+        }
+        return _intruderLogDao;
       }
     }
   }

@@ -141,6 +141,11 @@ class SecurePreferences(context: Context) {
         return prefs.getBoolean(KEY_AIRPLANE_MODE_DETECTED, false)
     }
 
+    // ============ Lock Screen Tracking ============
+    var failedUnlockAttempts: Int
+        get() = prefs.getInt("failed_unlock_attempts", 0)
+        set(value) = prefs.edit().putInt("failed_unlock_attempts", value).apply()
+
     // ============ Utility ============
 
     private fun hashString(input: String): String {

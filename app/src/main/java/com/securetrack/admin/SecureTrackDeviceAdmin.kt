@@ -51,11 +51,31 @@ class SecureTrackDeviceAdmin : DeviceAdminReceiver() {
     override fun onPasswordFailed(context: Context, intent: Intent, userHandle: android.os.UserHandle) {
         super.onPasswordFailed(context, intent, userHandle)
         Log.w(TAG, "Password failed attempt detected")
-        // Could trigger siren or location fetch here for added security
+        
+        val settings = com.securetrack.utils.SecurePreferences(context)
+        val currentFailed = settings.failedUnlockAttempts + 1
+        settings.failedUnlockAttempts = currentFailed
+        
+        Log.d(TAG, "Failed attempts: $currentFailed")
+        
+        // Trigger capture if attempts > 2
+        if (currentFailed > 2) {
+            Log.w(TAG, "Threshold reached! Triggering intruder capture.")
+            val captureIntent = Intent(context, com.securetrack.services.CoreProtectionService::class.java).apply {
+                action = com.securetrack.services.CoreProtectionService.ACTION_CAPTURE_INTRUDER
+            }
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                context.startForegroundService(captureIntent)
+            } else {
+                context.startService(captureIntent)
+            }
+        }
     }
 
     override fun onPasswordSucceeded(context: Context, intent: Intent, userHandle: android.os.UserHandle) {
         super.onPasswordSucceeded(context, intent, userHandle)
         Log.d(TAG, "Password succeeded")
+        val settings = com.securetrack.utils.SecurePreferences(context)
+        settings.failedUnlockAttempts = 0
     }
 }

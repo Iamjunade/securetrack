@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.securetrack.app-mergeDebugResources-57:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.securetrack.app-mergeDebugResources-62:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\junaidpasha\\.gradle\\caches\\transforms-3\\c3b3d4244363cfcdf7f9d44efce096cd\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",

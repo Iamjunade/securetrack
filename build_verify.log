@@ -1,0 +1,66 @@
+Starting a Gradle Daemon, 1 incompatible and 3 stopped Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugNativeLibs
+> Task :app:checkDebugDuplicateClasses
+> Task :app:processDebugResources
+> Task :app:mergeLibDexDebug UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libimage_processing_util_jni.so.
+
+> Task :app:mergeExtDexDebug
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin
+e: file:///C:/Users/junaidpasha/Downloads/SecureTrack/app/src/main/java/com/securetrack/services/CoreProtectionService.kt:22:1 Class 'CoreProtectionService' is not abstract and does not implement abstract member public abstract val lifecycle: Lifecycle defined in androidx.lifecycle.LifecycleOwner
+e: file:///C:/Users/junaidpasha/Downloads/SecureTrack/app/src/main/java/com/securetrack/services/CoreProtectionService.kt:35:5 'getLifecycle' overrides nothing
+e: file:///C:/Users/junaidpasha/Downloads/SecureTrack/app/src/main/java/com/securetrack/ui/LogsActivity.kt:54:40 Unresolved reference: TextView
+e: file:///C:/Users/junaidpasha/Downloads/SecureTrack/app/src/main/java/com/securetrack/ui/LogsActivity.kt:55:41 Unresolved reference: TextView
+e: file:///C:/Users/junaidpasha/Downloads/SecureTrack/app/src/main/java/com/securetrack/ui/LogsActivity.kt:65:40 Unresolved reference: TextView
+e: file:///C:/Users/junaidpasha/Downloads/SecureTrack/app/src/main/java/com/securetrack/ui/LogsActivity.kt:66:41 Unresolved reference: TextView
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 31s
+31 actionable tasks: 17 executed, 14 up-to-date

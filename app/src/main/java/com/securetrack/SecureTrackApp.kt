@@ -36,7 +36,9 @@ class SecureTrackApp : Application() {
             applicationContext,
             AppDatabase::class.java,
             "securetrack_db"
-        ).build()
+        )
+        .fallbackToDestructiveMigration()
+        .build()
 
         // Initialize Secure Preferences
         securePrefs = SecurePreferences(applicationContext)

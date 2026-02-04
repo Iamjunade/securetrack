@@ -1,0 +1,54 @@
+**Topic:**
+Create a professional, high-converting Investor Pitch Deck for a mobile application called "SecureTrack".
+
+**Visual Style & Theme:**
+- **Aesthetic:** Futuristic, Cyberpunk, High-Tech Security, "Minority Report" interface.
+- **Color Palette:** Deep Navy/Black Backgrounds (#0A0F1E), Neon Cyan/Electric Blue Accents (#00E5FF), White Text.
+- **Vibe:** Serious, Military-grade protection, Sleek, Glassmorphism effects.
+- **Imagery:** Holographic shields, circuit boards, digital maps, lock icons, smartphone mockups in dark mode.
+
+**Presentation Outline (Slide by Slide):**
+
+1.  **Title Slide:**
+    -   Headline: SecureTrack
+    -   Sub-headline: The Ultimate Anti-Theft & Recovery Suite.
+    -   Visual: A glowing holographic shield protecting a smartphone.
+
+2.  **The Problem:**
+    -   Point 1: Smartphone theft is rising globally.
+    -   Point 2: The first thing a thief does is **Power Off** the device to disable "Find My Device".
+    -   Point 3: Once offline, the phone is untraceable.
+
+3.  **The Solution:**
+    -   Headline: What if your phone *couldn't* stick to the thief's plan?
+    -   Concept: SecureTrack ensures your device stays ON and connected, even when it looks off.
+
+4.  **The "Secret Sauce" (Killer Feature): Fake Shutdown:**
+    -   Description: When an intruder tries to power off, SecureTrack interrupts the system and displays a **fake shutdown animation**.
+    -   Result: The screen goes black, vibration occurs, audio stops. The thief thinks it's off.
+    -   Reality: The phone is effectively ON, tracking location, taking photos, and listening.
+
+5.  **Command Center (SMS Protocol):**
+    -   Headline: Control Without Internet.
+    -   Description: Use any other phone to send stealth SMS commands:
+        -   `#LOCATE_<PIN>`: Returns exact GPS coordinates.
+        -   `#SIREN_<PIN>`: Triggers max-volume alarm (bypasses silent mode).
+        -   `#LOCK_<PIN>`: Instantly locks the device.
+
+6.  **Additional Security Layer:**
+    -   **Intruder Selfie:** Takes a photo when the wrong PIN is entered.
+    -   **SIM Change Alert:** Sends new number if the thief swaps the SIM.
+    -   **Passive Mode:** Runs silently without draining battery.
+
+7.  **Why We Win:**
+    -   Unlike standard trackers, we handle the "Power Off" scenario.
+    -   We work via SMS (GSM), so no data plan is needed for emergencies.
+    -   Stealth focus: The thief doesn't know they are being tracked.
+
+8.  **Call to Action:**
+    -   Headline: Secure Your World.
+    -   Text: Available now for Android.
+    -   Footer: Developed by Iamjunade.
+
+**Tone of Voice:**
+Confident, Innovative, Secure, Professional.

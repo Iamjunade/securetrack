@@ -48,6 +48,39 @@
 
         </LinearLayout>
 
+        <!-- Toggle Tabs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_glass_panel"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/tabCommands"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_fab_gradient"
+                android:gravity="center"
+                android:text="COMMANDS"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tabIntruders"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="INTRUDERS"
+                android:textColor="#80FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
         <!-- Empty State -->
         <TextView
             android:id="@+id/txtEmptyState"

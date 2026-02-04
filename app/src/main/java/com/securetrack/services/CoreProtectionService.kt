@@ -11,12 +11,15 @@ import com.securetrack.R
 import com.securetrack.SecureTrackApp
 import com.securetrack.ui.MainActivity
 
+import androidx.lifecycle.LifecycleService
+import kotlinx.coroutines.launch
+
 /**
  * Core Protection Service
  * Persistent foreground service that keeps SecureTrack running
  * Ensures SMS receiver is always active even when app is in background
  */
-class CoreProtectionService : Service() {
+class CoreProtectionService : LifecycleService() {
 
     companion object {
         private const val TAG = "CoreProtectionService"
@@ -24,7 +27,9 @@ class CoreProtectionService : Service() {
 
         const val ACTION_START = "com.securetrack.action.START_PROTECTION"
         const val ACTION_STOP = "com.securetrack.action.STOP_PROTECTION"
+        const val ACTION_CAPTURE_INTRUDER = "com.securetrack.action.CAPTURE_INTRUDER"
     }
+
 
     override fun onCreate() {
         super.onCreate()
@@ -32,10 +37,15 @@ class CoreProtectionService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        super.onStartCommand(intent, flags, startId)
         when (intent?.action) {
             ACTION_START -> {
                 Log.d(TAG, "Starting protection service")
                 startForeground(NOTIFICATION_ID, createNotification())
+            }
+            ACTION_CAPTURE_INTRUDER -> {
+                Log.w(TAG, "Available for Capture!")
+                captureIntruder()
             }
             ACTION_STOP -> {
                 Log.d(TAG, "Stopping protection service")
@@ -45,6 +55,32 @@ class CoreProtectionService : Service() {
         }
 
         return START_STICKY // Restart if killed
+    }
+    
+    private fun captureIntruder() {
+        val helper = com.securetrack.utils.CameraHelper(this, this)
+        helper.takeSilentSelfie(
+            onImageSaved = { file ->
+                Log.d(TAG, "Intruder captured: ${file.absolutePath}")
+                
+                 // Save to DB
+                kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
+                    val log = com.securetrack.data.IntruderLog(
+                        imagePath = file.absolutePath,
+                        timestamp = System.currentTimeMillis(),
+                        location = "Unknown" // TODO: Get last known location
+                    )
+                    SecureTrackApp.database.intruderLogDao().insertLog(log)
+                }
+                
+                // Helper shutdown handled by garbage collection or we can make it singleton
+                helper.shutdown()
+            },
+            onError = { exc ->
+                Log.e(TAG, "Failed to capture intruder", exc)
+                helper.shutdown()
+            }
+        )
     }
 
     private fun createNotification(): Notification {
@@ -65,7 +101,10 @@ class CoreProtectionService : Service() {
             .build()
     }
 
-    override fun onBind(intent: Intent?): IBinder? = null
+    override fun onBind(intent: Intent): IBinder? {
+        super.onBind(intent)
+        return null
+    }
 
     override fun onDestroy() {
         super.onDestroy()
