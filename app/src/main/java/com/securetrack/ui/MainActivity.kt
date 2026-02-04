@@ -45,6 +45,11 @@ class MainActivity : AppCompatActivity() {
 
         // Check for updates
         com.securetrack.utils.UpdateChecker.checkForUpdates(this)
+        
+        // Quick Update Button
+        findViewById<android.view.View>(R.id.btnQuickUpdate).setOnClickListener {
+             com.securetrack.utils.UpdateChecker.checkForUpdates(this, true)
+        }
 
         // Handle Window Insets (Notch/Status Bar)
         val mainContent = findViewById<android.view.View>(R.id.mainContent)
