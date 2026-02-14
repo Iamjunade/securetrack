@@ -31,13 +31,11 @@ class CoreProtectionService : LifecycleService() {
     }
 
 
-    private lateinit var cameraHelper: com.securetrack.utils.CameraHelper
+    private var cameraHelper: com.securetrack.utils.CameraHelper? = null
 
     override fun onCreate() {
         super.onCreate()
         Log.d(TAG, "CoreProtectionService created")
-        // Initialize camera helper once to keep it ready (warm start)
-        cameraHelper = com.securetrack.utils.CameraHelper(this, this)
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -64,8 +62,13 @@ class CoreProtectionService : LifecycleService() {
     }
     
     private fun captureIntruder() {
-        // Use the already initialized helper
-        cameraHelper.takeSilentSelfie(
+        if (cameraHelper == null) {
+             Log.d(TAG, "Initializing CameraHelper...")
+             cameraHelper = com.securetrack.utils.CameraHelper(this, this)
+        }
+    
+        // Use the helper
+        cameraHelper?.takeSilentSelfie(
             onImageSaved = { file ->
                 Log.d(TAG, "Intruder captured: ${file.absolutePath}")
                 
@@ -88,12 +91,9 @@ class CoreProtectionService : LifecycleService() {
                         )
                     )
                 }
-                
-                // Do NOT shutdown helper here, keep it ready for next time
             },
             onError = { exc ->
                 Log.e(TAG, "Failed to capture intruder", exc)
-                // Do NOT shutdown helper here either
             }
         )
     }
@@ -133,8 +133,6 @@ class CoreProtectionService : LifecycleService() {
             startForegroundService(restartIntent)
         }
         
-        if (::cameraHelper.isInitialized) {
-            cameraHelper.shutdown()
-        }
+        cameraHelper?.shutdown()
     }
 }
