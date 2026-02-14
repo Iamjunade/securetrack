@@ -61,6 +61,7 @@ object UpdateChecker {
 
                     val json = JSONObject(response.toString())
                     val remoteVersionCode = json.getInt("versionCode")
+                    android.util.Log.d("UpdateChecker", "Local: $currentVersionCode, Remote: $remoteVersionCode")
                     val downloadUrl = json.getString("url")
                     val changes = json.optString("changes", "New features and bug fixes.")
 
