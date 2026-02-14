@@ -5,18 +5,20 @@
     android:layout_height="match_parent"
     android:background="@color/background_dark">
 
-    <!-- Holographic Background -->
-    <View
+    <!-- Scanline Overlay -->
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_holographic_gradient" />
+        android:src="@drawable/view_scanline"
+        android:alpha="0.15"
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingHorizontal="20dp"
-        android:paddingTop="16dp">
+        android:paddingTop="32dp">
 
         <!-- Header with Back Button -->
         <LinearLayout
@@ -24,36 +26,34 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
-            android:paddingVertical="8dp">
+            android:layout_marginBottom="24dp">
 
             <ImageView
                 android:id="@+id/btnBack"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:padding="8dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="12dp"
                 android:src="@drawable/ic_back"
-                android:background="@drawable/bg_glass_panel"
-                app:tint="#B0FFFFFF" />
+                android:background="@drawable/bg_glass_panel_premium"
+                app:tint="@color/neon_cyan" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_marginStart="16dp"
-                android:text="COMMAND LOGS"
-                android:textColor="@color/primary"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.1" />
+                android:layout_marginStart="20dp"
+                android:text="SYSTEM LOGS"
+                style="@style/Theme.SecureTrack.Text.Header"
+                android:textSize="24sp" />
 
         </LinearLayout>
 
         <!-- Toggle Tabs -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/bg_glass_panel"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_glass_panel_premium"
             android:orientation="horizontal"
             android:padding="4dp">
 
@@ -63,10 +63,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/bg_fab_gradient"
+                android:backgroundTint="#1A00F0FF"
                 android:gravity="center"
                 android:text="COMMANDS"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold" />
+                android:textColor="@color/neon_cyan"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.1" />
 
             <TextView
                 android:id="@+id/tabIntruders"
@@ -76,8 +78,9 @@
                 android:background="@android:color/transparent"
                 android:gravity="center"
                 android:text="INTRUDERS"
-                android:textColor="#80FFFFFF"
-                android:textStyle="bold" />
+                android:textColor="@color/text_cyber_muted"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.1" />
 
         </LinearLayout>
 
@@ -88,9 +91,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:gravity="center"
-            android:text="No command logs yet.\nRun SMS commands to see history."
-            android:textColor="@color/text_secondary_dark"
-            android:textSize="16sp"
+            android:text="No logs recorded.\nSystem awaiting input."
+            style="@style/Theme.SecureTrack.Text.Data"
+            android:textSize="14sp"
             android:visibility="gone" />
 
         <!-- Logs List -->
@@ -99,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:clipToPadding="false"
             android:paddingBottom="20dp" />
 

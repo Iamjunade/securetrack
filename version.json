@@ -1,6 +1,6 @@
 {
-    "versionCode": 20,
-    "versionName": "2.0.0",
+    "versionCode": 21,
+    "versionName": "2.1.0",
     "url": "https://github.com/Iamjunade/securetrack/raw/main/app-release.apk",
-    "changes": "- Major UI Overhaul: Cyberguard 2026\n- Shutdown Lock\n- Fake Shutdown Deception"
+    "changes": "- GLOBAL UI OVERHAUL: Cyberguard Premium Theme applied to Settings, Logs, Contacts, and Lock Screen.\n- NEW TYPOGRAPHY: Luxurious custom font system.\n- GLASSMORPHISM 2.0: Enhanced visual effects."
 }

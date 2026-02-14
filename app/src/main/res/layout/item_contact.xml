@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="8dp">
+    android:layout_marginBottom="12dp">
 
     <!-- Glass Card Background -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_glass_panel"
+        android:background="@drawable/bg_glass_panel_premium"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:padding="16dp"
+        android:padding="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -20,7 +20,8 @@
         <FrameLayout
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:background="@drawable/bg_icon_callme">
+            android:background="@drawable/bg_fab_gradient"
+            android:backgroundTint="#1ABC13FE">
 
             <ImageView
                 android:id="@+id/imgAvatar"
@@ -28,7 +29,7 @@
                 android:layout_height="24dp"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_contacts"
-                app:tint="@color/cmd_callme" />
+                app:tint="@color/electric_purple" />
 
         </FrameLayout>
 
@@ -52,8 +53,8 @@
                     android:layout_height="wrap_content"
                     android:text="Contact Name"
                     android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/text_primary_dark"
+                    android:textColor="@color/text_cyber_primary"
+                    android:fontFamily="sans-serif-medium"
                     android:letterSpacing="0.05" />
 
                 <!-- Primary Badge -->
@@ -63,7 +64,7 @@
                     android:layout_height="16dp"
                     android:layout_marginStart="8dp"
                     android:src="@drawable/ic_star"
-                    app:tint="@color/accent"
+                    app:tint="@color/neon_cyan"
                     android:visibility="gone" />
 
             </LinearLayout>
@@ -74,9 +75,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="+1234567890"
-                android:textSize="14sp"
-                android:textColor="@color/primary"
-                android:fontFamily="sans-serif-medium"/>
+                style="@style/Theme.SecureTrack.Text.Data"
+                android:textSize="12sp"
+                android:textColor="@color/text_cyber_secondary" />
 
         </LinearLayout>
 
@@ -92,7 +93,7 @@
                 android:layout_height="36dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/ic_edit"
-                app:tint="#80FFFFFF"
+                app:tint="@color/text_cyber_muted"
                 android:contentDescription="Edit" />
 
             <ImageButton
@@ -102,7 +103,7 @@
                 android:layout_marginStart="4dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/ic_delete"
-                app:tint="@color/status_inactive"
+                app:tint="@color/alert_red"
                 android:contentDescription="Delete" />
 
         </LinearLayout>

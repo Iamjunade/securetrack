@@ -14,14 +14,20 @@
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         
-        <!-- Deep Space Background -->
-        <item name="android:windowBackground">@color/cyber_black</item>
+        <!-- Deep Space Background Globally -->
+        <item name="android:windowBackground">@drawable/bg_cyber_gradient</item>
+        
+        <!-- Global Typography Defaults -->
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/text_cyber_primary</item>
     </style>
 
     <!-- Cyber Text Styles -->
     <style name="Theme.SecureTrack.Text.Header">
         <item name="android:textSize">28sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@color/text_cyber_primary</item>
         <item name="android:letterSpacing">0.1</item>
         <item name="android:shadowColor">@color/neon_cyan_dim</item>
@@ -35,6 +41,13 @@
         <item name="android:fontFamily">monospace</item>
         <item name="android:textColor">@color/neon_cyan</item>
         <item name="android:letterSpacing">0.15</item>
+    </style>
+    
+    <style name="Theme.SecureTrack.Text.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/text_cyber_secondary</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
     </style>
 
     <style name="Theme.SecureTrack.GlassCard.Premium">

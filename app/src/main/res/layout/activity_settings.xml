@@ -5,17 +5,19 @@
     android:layout_height="match_parent"
     android:background="@color/background_dark">
 
-    <!-- Holographic Background -->
-    <View
+    <!-- Scanline Overlay (CRT Effect) -->
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_holographic_gradient" />
+        android:src="@drawable/view_scanline"
+        android:alpha="0.15"
+        android:scaleType="centerCrop" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
-        android:paddingBottom="20dp">
+        android:paddingBottom="40dp">
 
         <LinearLayout
             android:id="@+id/settingsContent"
@@ -23,7 +25,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingHorizontal="20dp"
-            android:paddingTop="16dp">
+            android:paddingTop="32dp">
 
             <!-- Header with Back Button -->
             <LinearLayout
@@ -31,27 +33,25 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="8dp">
+                android:layout_marginBottom="24dp">
 
                 <ImageView
                     android:id="@+id/btnBack"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:padding="8dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:padding="12dp"
                     android:src="@drawable/ic_back"
-                    android:background="@drawable/bg_glass_panel"
-                    app:tint="#B0FFFFFF" />
+                    android:background="@drawable/bg_glass_panel_premium"
+                    app:tint="@color/neon_cyan" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginStart="20dp"
                     android:text="SETTINGS"
-                    android:textColor="@color/primary"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:letterSpacing="0.1" />
+                    style="@style/Theme.SecureTrack.Text.Header"
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -59,21 +59,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginBottom="12dp"
-                android:text="PROTECTION"
-                android:textColor="@color/text_secondary_dark"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.15" />
+                android:text="> SYSTEM_PROTECTION"
+                style="@style/Theme.SecureTrack.Text.Data" />
 
             <!-- Protection Toggle -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_glass_panel"
+                android:background="@drawable/bg_glass_panel_premium"
                 android:orientation="horizontal"
-                android:padding="16dp"
+                android:padding="20dp"
                 android:gravity="center_vertical">
 
                 <LinearLayout
@@ -85,15 +82,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Protection Enabled"
-                        android:textColor="@color/text_primary_dark"
+                        android:text="Protection Active"
+                        android:textColor="@color/text_cyber_primary"
+                        android:fontFamily="sans-serif-medium"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Monitor device for theft attempts"
-                        android:textColor="@color/text_secondary_dark"
+                        android:text="Monitor device state"
+                        style="@style/Theme.SecureTrack.Text.Body"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
 
@@ -103,8 +101,8 @@
                     android:id="@+id/switchProtection"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:thumbTint="@color/primary"
-                    app:trackTint="@color/secondary" />
+                    app:thumbTint="@color/neon_cyan"
+                    app:trackTint="@color/glass_highlight_premium" />
 
             </LinearLayout>
 
@@ -112,10 +110,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:background="@drawable/bg_glass_panel"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_glass_panel_premium"
                 android:orientation="horizontal"
-                android:padding="16dp"
+                android:padding="20dp"
                 android:gravity="center_vertical">
 
                 <LinearLayout
@@ -127,17 +125,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Remote Wipe"
-                        android:textColor="@color/text_primary_dark"
+                        android:text="Remote Wipe Protocol"
+                         android:textColor="@color/text_cyber_primary"
+                        android:fontFamily="sans-serif-medium"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="⚠️ Allow factory reset via SMS"
-                        android:textColor="@color/status_warning"
-                        android:textSize="12sp"
-                        android:layout_marginTop="2dp" />
+                        android:text="⚠️ Data destruction enabled"
+                        android:textColor="@color/alert_red"
+                        android:fontFamily="monospace"
+                        android:textSize="11sp"
+                        android:layout_marginTop="4dp" />
 
                 </LinearLayout>
 
@@ -145,8 +145,8 @@
                     android:id="@+id/switchWipe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:thumbTint="@color/primary"
-                    app:trackTint="@color/secondary" />
+                    app:thumbTint="@color/alert_red"
+                    app:trackTint="@color/glass_highlight_premium" />
 
             </LinearLayout>
 
@@ -155,10 +155,10 @@
                 android:id="@+id/btnTestFakeShutdown"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:background="@drawable/bg_glass_panel"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_glass_panel_premium"
                 android:orientation="horizontal"
-                android:padding="16dp"
+                android:padding="20dp"
                 android:gravity="center_vertical"
                 android:clickable="true"
                 android:focusable="true">
@@ -173,14 +173,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Test Fake Shutdown"
-                        android:textColor="@color/text_primary_dark"
+                        android:textColor="@color/text_cyber_primary"
+                        android:fontFamily="sans-serif-medium"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Simulate power off behavior"
-                        android:textColor="@color/text_secondary_dark"
+                        android:text="Simulate power off sequence"
+                        style="@style/Theme.SecureTrack.Text.Body"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
 
@@ -190,7 +191,7 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/ic_stop"
-                    app:tint="@color/status_warning" />
+                    app:tint="@color/neon_cyan" />
 
             </LinearLayout>
 
@@ -198,215 +199,162 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="32dp"
                 android:layout_marginBottom="12dp"
-                android:text="SECURITY"
-                android:textColor="@color/text_secondary_dark"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.15" />
+                android:text="> ACCESS_CONTROL"
+                style="@style/Theme.SecureTrack.Text.Data" />
 
             <!-- Change PIN -->
-            <LinearLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/rowChangePin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_command_item"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:background="@drawable/bg_glass_panel_premium"
+                android:padding="20dp"
+                android:clickable="true"
+                android:focusable="true">
 
                 <FrameLayout
+                    android:id="@+id/iconPin"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:background="@drawable/bg_icon_lock">
+                    android:background="@drawable/bg_fab_gradient"
+                    android:backgroundTint="#1A00F0FF"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
 
                     <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_lock"
-                        app:tint="@color/cmd_lock" />
-
+                        app:tint="@color/neon_cyan" />
                 </FrameLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    app:layout_constraintStart_toEndOf="@id/iconPin"
+                    app:layout_constraintEnd_toStartOf="@id/arrowPin"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Change PIN"
-                        android:textColor="@color/text_primary_dark"
+                        android:textColor="@color/text_cyber_primary"
+                        android:fontFamily="sans-serif-medium"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Update your 6-digit PIN"
-                        android:textColor="@color/text_secondary_dark"
+                        style="@style/Theme.SecureTrack.Text.Body"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
-
                 </LinearLayout>
 
                 <ImageView
+                    android:id="@+id/arrowPin"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_chevron_right"
-                    app:tint="#33FFFFFF" />
+                    app:tint="@color/text_cyber_secondary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
 
-            </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <!-- Change Password -->
-            <LinearLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/rowChangePassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/bg_command_item"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_glass_panel_premium"
+                android:padding="20dp"
+                android:clickable="true"
+                android:focusable="true">
 
                 <FrameLayout
+                    android:id="@+id/iconPass"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:background="@drawable/bg_icon_callme">
+                    android:background="@drawable/bg_fab_gradient"
+                    android:backgroundTint="#1ABC13FE"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
 
                     <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_shield"
-                        app:tint="@color/cmd_callme" />
-
+                        app:tint="@color/electric_purple" />
                 </FrameLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    app:layout_constraintStart_toEndOf="@id/iconPass"
+                    app:layout_constraintEnd_toStartOf="@id/arrowPass"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Change Master Password"
-                        android:textColor="@color/text_primary_dark"
+                         android:textColor="@color/text_cyber_primary"
+                        android:fontFamily="sans-serif-medium"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Update recovery password"
-                        android:textColor="@color/text_secondary_dark"
+                        style="@style/Theme.SecureTrack.Text.Body"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
-
                 </LinearLayout>
 
                 <ImageView
+                    android:id="@+id/arrowPass"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_chevron_right"
-                    app:tint="#33FFFFFF" />
+                    app:tint="@color/text_cyber_secondary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
 
-            </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Share App Section -->
+            <!-- Update & Share -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="32dp"
                 android:layout_marginBottom="12dp"
-                android:text="SHARE"
-                android:textColor="@color/text_secondary_dark"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.15" />
-
-            <LinearLayout
-                android:id="@+id/btnShareApp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bg_command_item"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:gravity="center_vertical"
-                android:clickable="true"
-                android:focusable="true">
-
-                <FrameLayout
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:background="@drawable/bg_icon_callme">
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/ic_call"
-                        app:tint="@color/cmd_callme" />
-
-                </FrameLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginStart="16dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Share SecureTrack"
-                        android:textColor="@color/text_primary_dark"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Send APK to friends &amp; family"
-                        android:textColor="@color/text_secondary_dark"
-                        android:textSize="12sp"
-                        android:layout_marginTop="2dp" />
-
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/ic_chevron_right"
-                    app:tint="#33FFFFFF" />
-
-            </LinearLayout>
-
-            <!-- Updates Section -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
-                android:layout_marginBottom="12dp"
-                android:text="UPDATES"
-                android:textColor="@color/text_secondary_dark"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.15" />
+                android:text="> SYSTEM_UPDATE"
+                style="@style/Theme.SecureTrack.Text.Data" />
 
             <LinearLayout
                 android:id="@+id/btnCheckUpdates"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_command_item"
+                android:background="@drawable/bg_glass_panel_premium"
                 android:orientation="horizontal"
-                android:padding="16dp"
+                android:padding="20dp"
                 android:gravity="center_vertical"
                 android:clickable="true"
                 android:focusable="true">
@@ -414,15 +362,14 @@
                 <FrameLayout
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:background="@drawable/bg_icon_callme">
-
-                    <ImageView
+                    android:background="@drawable/bg_fab_gradient"
+                    android:backgroundTint="#1A00F0FF">
+                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_upload"
-                        app:tint="@color/cmd_callme" />
-
+                        app:tint="@color/neon_cyan" />
                 </FrameLayout>
 
                 <LinearLayout
@@ -436,149 +383,99 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Check for Updates"
-                        android:textColor="@color/text_primary_dark"
+                        android:textColor="@color/text_cyber_primary"
+                        android:fontFamily="sans-serif-medium"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Download latest features"
-                        android:textColor="@color/text_secondary_dark"
+                        android:text="Sync latest definitions"
+                        style="@style/Theme.SecureTrack.Text.Body"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
 
                 </LinearLayout>
-
-                <ImageView
+                   <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_chevron_right"
-                    app:tint="#33FFFFFF" />
+                    app:tint="@color/text_cyber_secondary" />
+            </LinearLayout>
 
+             <LinearLayout
+                android:id="@+id/btnShareApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_glass_panel_premium"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_fab_gradient"
+                    android:backgroundTint="#1ABC13FE">
+                     <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_call"
+                        app:tint="@color/electric_purple" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share SecureTrack"
+                        android:textColor="@color/text_cyber_primary"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+                 <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="@color/text_cyber_secondary" />
             </LinearLayout>
 
             <!-- About Section -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
-                android:layout_marginBottom="12dp"
-                android:text="ABOUT"
-                android:textColor="@color/text_secondary_dark"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.15" />
-
-            <!-- App Info Card -->
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bg_glass_panel"
-                android:orientation="vertical"
-                android:padding="20dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical">
-
-                    <FrameLayout
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:background="@drawable/bg_fab_gradient">
-
-                        <ImageView
-                            android:layout_width="28dp"
-                            android:layout_height="28dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/ic_shield"
-                            app:tint="@android:color/white" />
-
-                    </FrameLayout>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginStart="16dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="SecureTrack"
-                            android:textColor="@color/primary"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:letterSpacing="0.05" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Advanced Anti-Theft System"
-                            android:textColor="@color/text_primary_dark"
-                            android:textSize="12sp" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginVertical="16dp"
-                    android:background="#1AFFFFFF" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="SecureTrack provides military-grade protection for your device. It features a Fake Shutdown protocol, stealth tracking via SMS commands, and intruder detection with emergency siren capabilities. Your device never truly sleeps."
-                    android:textColor="@color/text_secondary_dark"
-                    android:textSize="13sp"
-                    android:lineSpacingMultiplier="1.4" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginVertical="16dp"
-                    android:background="#1AFFFFFF" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="DEVELOPER"
-                    android:textColor="@color/text_muted"
-                    android:textSize="10sp"
-                    android:letterSpacing="0.2"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="META MINDS"
-                    android:textColor="@color/primary"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-black"
-                    android:shadowColor="#8000E5FF"
-                    android:shadowDx="0"
-                    android:shadowDy="0"
-                    android:shadowRadius="8" />
-
-            </LinearLayout>
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:gravity="center"
-                android:text="SecureTrack v4.2.0"
-                android:textColor="@color/text_muted"
-                android:textSize="12sp" />
+                 android:orientation="vertical">
+                 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SECURETRACK v2.0"
+                    style="@style/Theme.SecureTrack.Text.Data" />
+                    
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DESIGNED BY META MINDS"
+                    android:textColor="@color/text_cyber_muted"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
 
         </LinearLayout>
-
     </androidx.core.widget.NestedScrollView>
 
     <!-- Hidden toolbar for compatibility -->

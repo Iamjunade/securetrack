@@ -5,54 +5,79 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_holographic_gradient">
 
+    <!-- Scanline Overlay -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/view_scanline"
+        android:alpha="0.2"
+        android:scaleType="centerCrop" />
+
     <!-- Glass Panel Background -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="32dp"
-        android:background="@drawable/bg_glass_panel"
+        android:background="@drawable/bg_glass_panel_premium"
         android:orientation="vertical"
-        android:padding="24dp"
-        android:elevation="10dp">
+        android:padding="32dp"
+        android:elevation="20dp">
 
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_lock"
-            app:tint="@color/primary"
-            android:layout_marginBottom="16dp" />
+            app:tint="@color/alert_red"
+            android:layout_marginBottom="24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="SHUTDOWN LOCKED"
-            android:textColor="@color/primary"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:letterSpacing="0.1" />
+            android:text="SYSTEM LOCKED"
+            android:textColor="@color/alert_red"
+            android:textSize="24sp"
+            style="@style/Theme.SecureTrack.Text.Header"
+            android:letterSpacing="0.2" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
-            android:text="Enter PIN to power off device"
-            android:textColor="@color/text_secondary_dark"
+            android:text="Authorization Required"
+            android:textColor="@color/text_cyber_primary"
             android:textSize="14sp"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.1"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="Enter security PIN to proceed"
+            android:textColor="@color/text_cyber_secondary"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light" />
 
         <!-- PIN Input -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:hint="PIN"
-            app:boxBackgroundColor="#1AFFFFFF"
-            app:boxStrokeColor="@color/primary"
-            app:hintTextColor="@color/primary"
+            android:layout_marginTop="32dp"
+            android:hint="PIN CODE"
+            android:textColorHint="@color/text_cyber_muted"
+            app:boxBackgroundColor="#1A000000"
+            app:boxStrokeColor="@color/neon_cyan"
+            app:boxStrokeWidth="1dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/neon_cyan"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -61,7 +86,10 @@
                 android:layout_height="wrap_content"
                 android:inputType="numberPassword"
                 android:maxLength="6"
-                android:textColor="@color/text_primary_dark"
+                android:textColor="@color/neon_cyan"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.2"
+                android:textSize="18sp"
                 android:maxLines="1" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -71,12 +99,14 @@
             android:id="@+id/btnUnlock"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:layout_marginTop="24dp"
-            android:text="UNLOCK &amp; POWER OFF"
+            android:layout_marginTop="32dp"
+            android:text="AUTHENTICATE"
             android:textSize="14sp"
-            android:textStyle="bold"
-            app:cornerRadius="8dp"
-            app:backgroundTint="@color/primary" />
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.1"
+            app:cornerRadius="4dp"
+            android:backgroundTint="@color/neon_cyan"
+            android:textColor="@color/cyber_black" />
 
         <!-- Cancel/Emergency -->
         <TextView
@@ -84,12 +114,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             android:padding="8dp"
-            android:text="EMERGENCY CALL"
-            android:textColor="@color/status_inactive"
-            android:textSize="12sp"
-            android:textStyle="bold"
+            android:text="EMERGENCY OVERRIDE"
+            android:textColor="@color/alert_red"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
             android:letterSpacing="0.1"
             android:clickable="true"
             android:focusable="true"/>
