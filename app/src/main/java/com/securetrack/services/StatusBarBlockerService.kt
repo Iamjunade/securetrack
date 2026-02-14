@@ -28,6 +28,9 @@ class StatusBarBlockerService : AccessibilityService() {
             "com.android.systemui.statusbar.phone.PhoneStatusBarView",
             "android.widget.FrameLayout"  // Fallback
         )
+        
+        // Flag to allow shutdown if PIN verified
+        var shouldAllowShutdown = false
     }
 
     private var keyguardManager: KeyguardManager? = null
@@ -64,8 +67,13 @@ class StatusBarBlockerService : AccessibilityService() {
 
         // 1. Check for Power Menu (Fake Shutdown Trigger)
         if (isPowerMenuEvent(event)) {
-            Log.d(TAG, "Power Menu detected while locked! Initiating Fake Shutdown...")
-            triggerFakeShutdown()
+            if (shouldAllowShutdown) {
+                Log.d(TAG, "Shutdown allowed by PIN verification")
+                return // Don't block
+            }
+            
+            Log.d(TAG, "Power Menu detected! Initiating Shutdown Lock...")
+            triggerShutdownLock()
             // Try to dismiss the real power menu if possible
             performGlobalAction(GLOBAL_ACTION_BACK) 
             return
@@ -89,22 +97,31 @@ class StatusBarBlockerService : AccessibilityService() {
             if (content.contains("power off") || 
                 content.contains("shut down") || 
                 content.contains("restart") ||
-                content.contains("emergency mode")) {
+                content.contains("emergency") || // Covers "Emergency mode", "Emergency call"
+                content.contains("airplane mode") || // Often in power menu
+                content.contains("lockdown")) {
                 return true
             }
         }
         
         // Also check content description
         val contentDesc = event.contentDescription?.toString()?.lowercase() ?: ""
-        if (contentDesc.contains("power off") || contentDesc.contains("shut down")) {
+        if (contentDesc.contains("power off") || 
+            contentDesc.contains("shut down") ||
+            contentDesc.contains("device options")) { // Android 11+ Power Menu container
+            return true
+        }
+        
+        // Check for specific Power Menu classes if known (Device dependent)
+        if (event.className?.toString()?.contains("GlobalActions") == true) {
             return true
         }
 
         return false
     }
 
-    private fun triggerFakeShutdown() {
-        val intent = android.content.Intent(this, com.securetrack.ui.FakeShutdownActivity::class.java).apply {
+    private fun triggerShutdownLock() {
+        val intent = android.content.Intent(this, com.securetrack.ui.ShutdownLockActivity::class.java).apply {
             addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK)
             addFlags(android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP)
             addFlags(android.content.Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)

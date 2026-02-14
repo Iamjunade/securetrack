@@ -123,6 +123,15 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="false" />
 
+        <!-- Shutdown Lock Activity -->
+        <activity
+            android:name=".ui.ShutdownLockActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="false" />
+
         <!-- SMS Receiver - High Priority -->
         <receiver
             android:name=".receivers.SmsReceiver"

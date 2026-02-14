@@ -65,6 +65,18 @@ class SettingsActivity : AppCompatActivity() {
             }
         }
 
+        // Test Fake Shutdown
+        findViewById<android.view.View>(R.id.btnTestFakeShutdown).setOnClickListener {
+            Toast.makeText(this, "Starting Fake Shutdown...", Toast.LENGTH_SHORT).show()
+            try {
+                val intent = android.content.Intent(this, FakeShutdownActivity::class.java)
+                startActivity(intent)
+            } catch (e: Exception) {
+                Toast.makeText(this, "Error: ${e.message}", Toast.LENGTH_LONG).show()
+                e.printStackTrace()
+            }
+        }
+
         // Change PIN
         findViewById<android.view.View>(R.id.rowChangePin).setOnClickListener {
             showChangePinDialog()
