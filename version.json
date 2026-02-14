@@ -1,6 +1,6 @@
 {
-    "versionCode": 4,
-    "versionName": "1.2.1",
-    "url": "https://github.com/Iamjunade/securetrack/raw/main/app-debug.apk",
-    "changes": "- NEW: Intruder Selfie on wrong PIN\n- Added Gallery for Intruder Photos\n- Improved Camera Service stability\n- (Logic Verification Update)"
+    "versionCode": 8,
+    "versionName": "1.3.0",
+    "url": "https://github.com/Iamjunade/securetrack/raw/main/app-release.apk",
+    "changes": "- Fix: Auto-update mechanism improvements\n- Improved update check reliability"
 }
