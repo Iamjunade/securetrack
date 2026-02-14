@@ -1,6 +1,6 @@
 {
-    "versionCode": 13,
-    "versionName": "1.3.5",
+    "versionCode": 14,
+    "versionName": "1.3.6",
     "url": "https://github.com/Iamjunade/securetrack/raw/main/app-release.apk",
-    "changes": "- Fix: Robust Service Start for Android 14+\n- Added Deep Logging for Intruder detection"
+    "changes": "- Feature: Instant Intruder Selfie (Lag Reduced)\n- Feature: View Full Screen Intruder Photo\n- Performance Improvements"
 }

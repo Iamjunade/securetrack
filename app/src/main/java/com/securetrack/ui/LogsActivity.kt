@@ -42,7 +42,18 @@ class LogsActivity : AppCompatActivity() {
     private fun setupRecyclerView() {
         logAdapter = CommandLogAdapter()
         intruderAdapter = IntruderLogAdapter { path ->
-            // TODO: Open full screen image
+            // Show full screen image dialog
+            val dialog = android.app.Dialog(this@LogsActivity, android.R.style.Theme_Black_NoTitleBar_Fullscreen)
+            dialog.setContentView(R.layout.dialog_fullscreen_image)
+            
+            val imgFull = dialog.findViewById<ImageView>(R.id.imgFull)
+            val btnClose = dialog.findViewById<View>(R.id.btnClose)
+            
+            val bitmap = android.graphics.BitmapFactory.decodeFile(path)
+            imgFull.setImageBitmap(bitmap)
+            
+            btnClose.setOnClickListener { dialog.dismiss() }
+            dialog.show()
         }
         
         findViewById<RecyclerView>(R.id.recyclerLogs).apply {

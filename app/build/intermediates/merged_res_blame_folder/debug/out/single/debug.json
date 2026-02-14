@@ -20,12 +20,12 @@
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_logs.xml"
     },
     {
-        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-merged_res-64:\\layout_item_command_holo.xml.flat",
-        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_command_holo.xml"
-    },
-    {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-merged_res-64:\\drawable_ic_check.xml.flat",
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-merged_res-64:\\layout_item_command_holo.xml.flat",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_command_holo.xml"
     },
     {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-merged_res-64:\\drawable_bg_icon_locate.xml.flat",
@@ -168,6 +168,10 @@
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_contact.xml"
     },
     {
+        "merged": "com.securetrack.app-merged_res-64:/layout_dialog_fullscreen_image.xml.flat",
+        "source": "com.securetrack.app-main-66:/layout/dialog_fullscreen_image.xml"
+    },
+    {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-merged_res-64:\\layout_dialog_change_pin.xml.flat",
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_change_pin.xml"
     },
@@ -198,10 +202,6 @@
     {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-merged_res-64:\\drawable_bg_holographic_gradient.xml.flat",
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\drawable\\bg_holographic_gradient.xml"
-    },
-    {
-        "merged": "com.securetrack.app-merged_res-64:/layout_activity_main.xml.flat",
-        "source": "com.securetrack.app-main-66:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-merged_res-64:\\layout_item_intruder_log.xml.flat",

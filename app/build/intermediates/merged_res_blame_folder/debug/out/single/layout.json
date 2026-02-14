@@ -20,10 +20,6 @@
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_wipe_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/activity_main.xml",
-        "source": "com.securetrack.app-main-66:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_logs.xml",
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_logs.xml"
     },
@@ -78,6 +74,10 @@
     {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_main.xml",
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/dialog_fullscreen_image.xml",
+        "source": "com.securetrack.app-main-66:/layout/dialog_fullscreen_image.xml"
     },
     {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_settings.xml",

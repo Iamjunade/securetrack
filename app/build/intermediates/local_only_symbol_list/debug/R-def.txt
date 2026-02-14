@@ -76,6 +76,7 @@ id backgroundGradient
 id bottomNavContainer
 id btnBack
 id btnCheckUpdates
+id btnClose
 id btnDelete
 id btnEdit
 id btnNext
@@ -111,6 +112,7 @@ id imgAccessibilityStatus
 id imgAdminStatus
 id imgAvatar
 id imgDndStatus
+id imgFull
 id imgIcon
 id imgIntruder
 id imgLocationStatus
@@ -180,6 +182,7 @@ layout activity_setup_wizard
 layout dialog_change_password
 layout dialog_change_pin
 layout dialog_contact
+layout dialog_fullscreen_image
 layout dialog_wipe_pin
 layout item_command
 layout item_command_holo
