@@ -56,6 +56,10 @@
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\step_permissions.xml"
     },
     {
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\dialog_fullscreen_image.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_fullscreen_image.xml"
+    },
+    {
         "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\dialog_change_password.xml",
         "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_change_password.xml"
     },

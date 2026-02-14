@@ -53,6 +53,7 @@ drawable ic_back
 drawable ic_call
 drawable ic_check
 drawable ic_chevron_right
+drawable ic_close
 drawable ic_contacts
 drawable ic_dashboard
 drawable ic_delete
