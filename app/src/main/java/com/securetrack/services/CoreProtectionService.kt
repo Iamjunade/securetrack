@@ -63,7 +63,7 @@ class CoreProtectionService : LifecycleService() {
             onImageSaved = { file ->
                 Log.d(TAG, "Intruder captured: ${file.absolutePath}")
                 
-                 // Save to DB
+                // Save to DB
                 kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
                     val log = com.securetrack.data.IntruderLog(
                         imagePath = file.absolutePath,
@@ -71,6 +71,16 @@ class CoreProtectionService : LifecycleService() {
                         location = "Unknown" // TODO: Get last known location
                     )
                     SecureTrackApp.database.intruderLogDao().insertLog(log)
+
+                    // ALSO Add to Command Logs so user sees it in the main list
+                    SecureTrackApp.database.commandLogDao().insertLog(
+                        com.securetrack.data.entities.CommandLog(
+                            command = "INTRUDER_ALERT",
+                            response = "Photo captured: ${file.name}",
+                            timestamp = System.currentTimeMillis(),
+                            isSuccess = true
+                        )
+                    )
                 }
                 
                 // Helper shutdown handled by garbage collection or we can make it singleton
