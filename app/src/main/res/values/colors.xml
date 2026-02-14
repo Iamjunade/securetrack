@@ -39,10 +39,35 @@
     <color name="cmd_callme">#10B981</color>        <!-- Emerald -->
     <color name="cmd_callme_bg">#1A10B981</color>
     
-    <!-- Gradient Orb Colors -->
-    <color name="orb_purple">#407000FF</color>       <!-- 25% purple -->
-    <color name="orb_cyan">#2600F0FF</color>        <!-- 15% cyan -->
-    <color name="orb_pink">#26FF00AA</color>        <!-- 15% pink -->
+    <!-- Cyberguard 2026 Palette -->
+    <color name="cyber_black">#050505</color>       <!-- Deep Space -->
+    <color name="cyber_dark_overlay">#CC000000</color>
+    
+    <color name="neon_cyan">#00F0FF</color>         <!-- Primary Action -->
+    <color name="neon_cyan_dim">#3300F0FF</color>   <!-- Glow -->
+    
+    <color name="electric_purple">#BC13FE</color>   <!-- Secondary/accent -->
+    <color name="electric_purple_dim">#33BC13FE</color>
+
+    <color name="matrix_green">#00FF9D</color>      <!-- Success/Safe -->
+    <color name="matrix_green_dim">#3300FF9D</color>
+
+    <color name="alert_red">#FF2A6D</color>         <!-- Critical/Danger -->
+    <color name="alert_red_dim">#33FF2A6D</color>
+
+    <color name="glass_surface_premium">#1AFFFFFF</color> <!-- 10% White -->
+    <color name="glass_border_premium">#26FFFFFF</color>  <!-- 15% White -->
+    <color name="glass_highlight_premium">#4DFFFFFF</color> <!-- 30% White -->
+
+    <!-- Text Colors -->
+    <color name="text_cyber_primary">#FFFFFF</color>
+    <color name="text_cyber_secondary">#B0B0B0</color>
+    <color name="text_cyber_muted">#606060</color>
+
+    <!-- Legacy Mappings for Compatibility -->
+    <color name="orb_purple">@color/electric_purple_dim</color>       
+    <color name="orb_cyan">@color/neon_cyan_dim</color>        
+    <color name="orb_pink">@color/alert_red_dim</color>
     
     <!-- UI Elements -->
     <color name="card_background">#660D0D1E</color>

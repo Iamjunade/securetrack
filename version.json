@@ -1,6 +1,6 @@
 {
-    "versionCode": 19,
-    "versionName": "1.4.0",
+    "versionCode": 20,
+    "versionName": "2.0.0",
     "url": "https://github.com/Iamjunade/securetrack/raw/main/app-release.apk",
-    "changes": "- Feature: Shutdown Lock (Requires PIN to power off)\n- Feature: Fake Shutdown Deception Fallback"
+    "changes": "- Major UI Overhaul: Cyberguard 2026\n- Shutdown Lock\n- Fake Shutdown Deception"
 }

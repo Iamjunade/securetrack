@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base: Deep Space Black -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cyber_black"/>
+        </shape>
+    </item>
+
+    <!-- Top-Right: Cyan Glow (Large, subtle) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="800dp"
+                android:centerX="1.0"
+                android:centerY="0.0"
+                android:startColor="#1A00F0FF"
+                android:endColor="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- Bottom-Left: Purple Haze -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="600dp"
+                android:centerX="0.0"
+                android:centerY="1.0"
+                android:startColor="#1ABC13FE"
+                android:endColor="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- Center: Subtle Green Pulse (Very faint) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:centerX="0.5"
+                android:centerY="0.5"
+                android:startColor="#0D00FF9D"
+                android:endColor="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

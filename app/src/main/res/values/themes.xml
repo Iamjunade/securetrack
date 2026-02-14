@@ -1,54 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Holographic Dark Theme -->
+    <!-- Cyberguard Theme -->
     <style name="Theme.SecureTrack" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryDark">@color/secondary</item>
-        <item name="colorSecondary">@color/secondary</item>
-        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/neon_cyan</item>
+        <item name="colorPrimaryDark">@color/cyber_black</item>
+        <item name="colorSecondary">@color/electric_purple</item>
+        <item name="colorAccent">@color/alert_red</item>
         
-        <!-- Transparent bars for immersive experience -->
+        <!-- Immersive Transparent Bars -->
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@color/background_dark</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item> 
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         
-        <!-- Dark background -->
-        <item name="android:windowBackground">@color/background_dark</item>
+        <!-- Deep Space Background -->
+        <item name="android:windowBackground">@color/cyber_black</item>
     </style>
 
-    <!-- Text Styles -->
-    <style name="Theme.SecureTrack.Text.Title" parent="">
-        <item name="android:textSize">24sp</item>
+    <!-- Cyber Text Styles -->
+    <style name="Theme.SecureTrack.Text.Header">
+        <item name="android:textSize">28sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textColor">@color/text_cyber_primary</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:shadowColor">@color/neon_cyan_dim</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">12</item>
     </style>
 
-    <style name="Theme.SecureTrack.Text.Subtitle" parent="">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/text_secondary_dark</item>
-    </style>
-
-    <style name="Theme.SecureTrack.Text.Command" parent="">
-        <item name="android:textSize">14sp</item>
+    <style name="Theme.SecureTrack.Text.Data">
+        <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">monospace</item>
-        <item name="android:textColor">@color/primary</item>
+        <item name="android:textColor">@color/neon_cyan</item>
+        <item name="android:letterSpacing">0.15</item>
     </style>
 
-    <!-- Glass Card Style -->
-    <style name="Theme.SecureTrack.GlassCard" parent="">
-        <item name="android:background">@drawable/bg_glass_panel</item>
-        <item name="android:padding">16dp</item>
+    <style name="Theme.SecureTrack.GlassCard.Premium">
+        <item name="android:background">@drawable/bg_glass_panel_premium</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:elevation">8dp</item>
     </style>
 
-    <!-- Button Styles -->
+    <!-- Legacy Styles (Mapped to Cyber) -->
+    <style name="Theme.SecureTrack.GlassCard" parent="Theme.SecureTrack.GlassCard.Premium"/>
+    
+    <style name="Theme.SecureTrack.Text">
+        <item name="android:textColor">@color/text_cyber_primary</item>
+    </style>
+
+    <style name="Theme.SecureTrack.Text.Title" parent="Theme.SecureTrack.Text.Header">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Theme.SecureTrack.Text.Subtitle" parent="Theme.SecureTrack.Text.Data">
+        <item name="android:textColor">@color/text_cyber_secondary</item>
+    </style>
+    
+    <style name="Theme.SecureTrack.Text.Command" parent="Theme.SecureTrack.Text.Data">
+        <item name="android:textColor">@color/neon_cyan</item>
+    </style>
+
     <style name="Theme.SecureTrack.Button.Primary" parent="Widget.Material3.Button">
-        <item name="android:backgroundTint">@color/primary</item>
-        <item name="android:textColor">@color/background_dark</item>
+        <item name="android:backgroundTint">@color/neon_cyan</item>
+        <item name="android:textColor">@color/cyber_black</item>
     </style>
-
+    
     <style name="Theme.SecureTrack.Button.Danger" parent="Widget.Material3.Button">
-        <item name="android:backgroundTint">@color/status_inactive</item>
+        <item name="android:backgroundTint">@color/alert_red</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 </resources>
