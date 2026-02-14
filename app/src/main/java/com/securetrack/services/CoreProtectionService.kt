@@ -72,13 +72,13 @@ class CoreProtectionService : LifecycleService() {
                     )
                     SecureTrackApp.database.intruderLogDao().insertLog(log)
 
-                    // ALSO Add to Command Logs so user sees it in the main list
                     SecureTrackApp.database.commandLogDao().insertLog(
                         com.securetrack.data.entities.CommandLog(
                             command = "INTRUDER_ALERT",
-                            response = "Photo captured: ${file.name}",
+                            senderNumber = "SYSTEM",
+                            resultMessage = "Photo captured: ${file.name}",
                             timestamp = System.currentTimeMillis(),
-                            isSuccess = true
+                            status = com.securetrack.data.entities.CommandStatus.SUCCESS
                         )
                     )
                 }
