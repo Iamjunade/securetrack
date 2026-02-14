@@ -102,13 +102,33 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         updateStatus()
+        
+        // Ensure Camera permission is granted if protection is enabled
+        if (SecureTrackApp.securePrefs.isProtectionEnabled && !PermissionHelper.checkCameraPermission(this)) {
+            requestPermissions(arrayOf(PermissionHelper.getCameraPermission()), 102)
+        }
     }
 
     private fun setupStatusCard() {
         binding.switchProtection.setOnCheckedChangeListener { _, isChecked ->
             SecureTrackApp.securePrefs.isProtectionEnabled = isChecked
             updateProtectionService(isChecked)
+            
+            // Check Camera permission if enabling protection
+            if (isChecked && !PermissionHelper.checkCameraPermission(this)) {
+                requestPermissions(arrayOf(PermissionHelper.getCameraPermission()), 101)
+            }
+            
             updateStatus()
+        }
+        
+        // Allow clicking the status card to fix permissions
+        binding.cardStatus.setOnClickListener {
+             val permissions = PermissionHelper.checkAllPermissions(this)
+             if (!permissions.cameraGranted) {
+                 requestPermissions(arrayOf(PermissionHelper.getCameraPermission()), 101)
+             }
+             // Add other permission requests here if needed
         }
     }
 

@@ -26,6 +26,7 @@ object PermissionHelper {
         val locationGranted: Boolean,
         val backgroundLocationGranted: Boolean,
         val phoneGranted: Boolean,
+        val cameraGranted: Boolean,
         val deviceAdminActive: Boolean,
         val accessibilityEnabled: Boolean,
         val notificationPolicyAccess: Boolean,
@@ -40,6 +41,7 @@ object PermissionHelper {
         val location = checkLocationPermission(context)
         val bgLocation = checkBackgroundLocationPermission(context)
         val phone = checkPhonePermission(context)
+        val camera = checkCameraPermission(context)
         val admin = checkDeviceAdmin(context)
         val accessibility = checkAccessibilityService(context)
         val notification = checkNotificationPolicyAccess(context)
@@ -49,10 +51,11 @@ object PermissionHelper {
             locationGranted = location,
             backgroundLocationGranted = bgLocation,
             phoneGranted = phone,
+            cameraGranted = camera,
             deviceAdminActive = admin,
             accessibilityEnabled = accessibility,
             notificationPolicyAccess = notification,
-            allGranted = sms && location && bgLocation && phone && admin && accessibility && notification
+            allGranted = sms && location && bgLocation && phone && camera && admin && accessibility && notification
         )
     }
 
@@ -73,6 +76,10 @@ object PermissionHelper {
 
     fun checkPhonePermission(context: Context): Boolean {
         return ContextCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED
+    }
+
+    fun checkCameraPermission(context: Context): Boolean {
+        return ContextCompat.checkSelfPermission(context, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED
     }
 
     fun checkDeviceAdmin(context: Context): Boolean {
@@ -119,6 +126,10 @@ object PermissionHelper {
 
     fun getPhonePermission(): String {
         return Manifest.permission.CALL_PHONE
+    }
+
+    fun getCameraPermission(): String {
+        return Manifest.permission.CAMERA
     }
 
     fun getDeviceAdminIntent(context: Context): Intent {

@@ -34,6 +34,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FrameLayout btnNotification;
 
   @NonNull
+  public final LinearLayout btnQuickUpdate;
+
+  @NonNull
   public final ConstraintLayout cardStatus;
 
   @NonNull
@@ -89,19 +92,21 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull View backgroundGradient,
       @NonNull ConstraintLayout bottomNavContainer, @NonNull FrameLayout btnNotification,
-      @NonNull ConstraintLayout cardStatus, @NonNull ItemCommandHoloBinding cmdCallMe,
-      @NonNull ItemCommandHoloBinding cmdLocate, @NonNull ItemCommandHoloBinding cmdLock,
-      @NonNull ItemCommandHoloBinding cmdSiren, @NonNull FrameLayout fabAdd,
-      @NonNull LinearLayout logCardsContainer, @NonNull LottieAnimationView lottieShield,
-      @NonNull LinearLayout mainContent, @NonNull NestedScrollView mainScrollView,
-      @NonNull LinearLayout navBackground, @NonNull LinearLayout navContacts,
-      @NonNull LinearLayout navHome, @NonNull LinearLayout navLogs,
-      @NonNull LinearLayout navSettings, @NonNull SwitchMaterial switchProtection,
-      @NonNull TextView txtStatusDetail, @NonNull TextView txtStatusTitle) {
+      @NonNull LinearLayout btnQuickUpdate, @NonNull ConstraintLayout cardStatus,
+      @NonNull ItemCommandHoloBinding cmdCallMe, @NonNull ItemCommandHoloBinding cmdLocate,
+      @NonNull ItemCommandHoloBinding cmdLock, @NonNull ItemCommandHoloBinding cmdSiren,
+      @NonNull FrameLayout fabAdd, @NonNull LinearLayout logCardsContainer,
+      @NonNull LottieAnimationView lottieShield, @NonNull LinearLayout mainContent,
+      @NonNull NestedScrollView mainScrollView, @NonNull LinearLayout navBackground,
+      @NonNull LinearLayout navContacts, @NonNull LinearLayout navHome,
+      @NonNull LinearLayout navLogs, @NonNull LinearLayout navSettings,
+      @NonNull SwitchMaterial switchProtection, @NonNull TextView txtStatusDetail,
+      @NonNull TextView txtStatusTitle) {
     this.rootView = rootView;
     this.backgroundGradient = backgroundGradient;
     this.bottomNavContainer = bottomNavContainer;
     this.btnNotification = btnNotification;
+    this.btnQuickUpdate = btnQuickUpdate;
     this.cardStatus = cardStatus;
     this.cmdCallMe = cmdCallMe;
     this.cmdLocate = cmdLocate;
@@ -164,6 +169,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.btnNotification;
       FrameLayout btnNotification = ViewBindings.findChildViewById(rootView, id);
       if (btnNotification == null) {
+        break missingId;
+      }
+
+      id = R.id.btnQuickUpdate;
+      LinearLayout btnQuickUpdate = ViewBindings.findChildViewById(rootView, id);
+      if (btnQuickUpdate == null) {
         break missingId;
       }
 
@@ -280,10 +291,10 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, backgroundGradient,
-          bottomNavContainer, btnNotification, cardStatus, binding_cmdCallMe, binding_cmdLocate,
-          binding_cmdLock, binding_cmdSiren, fabAdd, logCardsContainer, lottieShield, mainContent,
-          mainScrollView, navBackground, navContacts, navHome, navLogs, navSettings,
-          switchProtection, txtStatusDetail, txtStatusTitle);
+          bottomNavContainer, btnNotification, btnQuickUpdate, cardStatus, binding_cmdCallMe,
+          binding_cmdLocate, binding_cmdLock, binding_cmdSiren, fabAdd, logCardsContainer,
+          lottieShield, mainContent, mainScrollView, navBackground, navContacts, navHome, navLogs,
+          navSettings, switchProtection, txtStatusDetail, txtStatusTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

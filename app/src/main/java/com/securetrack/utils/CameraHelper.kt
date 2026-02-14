@@ -52,7 +52,14 @@ class CameraHelper(private val context: Context, private val lifecycleOwner: Lif
     }
 
     fun takeSilentSelfie(onImageSaved: (File) -> Unit, onError: (Exception) -> Unit) {
-        val imageCapture = imageCapture ?: return
+        val imageCapture = imageCapture
+        if (imageCapture == null) {
+            Log.e("CameraHelper", "ImageCapture is NULL. Camera not initialized?")
+            onError(IllegalStateException("Camera not initialized"))
+            return
+        }
+
+        Log.d("CameraHelper", "Attempting to take picture...")
 
         val photoFile = File(
             context.filesDir, // Internal storage for security

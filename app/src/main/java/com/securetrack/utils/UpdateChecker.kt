@@ -46,6 +46,9 @@ object UpdateChecker {
                 conn.requestMethod = "GET"
                 conn.connectTimeout = 5000
                 conn.readTimeout = 5000
+                
+                // Add cache busting to ensure we get the latest JSON
+                conn.addRequestProperty("Cache-Control", "no-cache")
 
                 if (conn.responseCode == 200) {
                     val reader = BufferedReader(InputStreamReader(conn.inputStream))
@@ -65,12 +68,17 @@ object UpdateChecker {
                         if (remoteVersionCode > currentVersionCode) {
                             showUpdateDialog(activity, downloadUrl, changes)
                         } else if (isManualCheck) {
-                            Toast.makeText(activity, "You are up to date!", Toast.LENGTH_SHORT).show()
+                            // Show specific version info for debugging
+                            Toast.makeText(
+                                activity, 
+                                "App is up to date (Local: $currentVersionCode, Remote: $remoteVersionCode)", 
+                                Toast.LENGTH_LONG
+                            ).show()
                         }
                     }
                 } else {
                     if (isManualCheck) handler.post { 
-                        Toast.makeText(activity, "Check failed: ${conn.responseCode}", Toast.LENGTH_SHORT).show() 
+                        Toast.makeText(activity, "Check failed: HTTP ${conn.responseCode}", Toast.LENGTH_SHORT).show() 
                     }
                 }
             } catch (e: Exception) {

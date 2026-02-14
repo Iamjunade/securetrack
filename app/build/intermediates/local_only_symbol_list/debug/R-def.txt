@@ -80,6 +80,7 @@ id btnDelete
 id btnEdit
 id btnNext
 id btnNotification
+id btnQuickUpdate
 id btnSetPassword
 id btnSetPin
 id btnShareApp

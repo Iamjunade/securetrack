@@ -58,16 +58,28 @@ class SecureTrackDeviceAdmin : DeviceAdminReceiver() {
         
         Log.d(TAG, "Failed attempts: $currentFailed")
         
-        // Trigger capture if attempts > 2
-        if (currentFailed > 2) {
+        // Trigger capture immediately on first attempt (>= 1)
+        if (currentFailed >= 1) {
+            if (!com.securetrack.utils.PermissionHelper.checkCameraPermission(context)) {
+                Log.e(TAG, "Cannot capture intruder: Camera permission not granted")
+                return
+            }
+
             Log.w(TAG, "Threshold reached! Triggering intruder capture.")
             val captureIntent = Intent(context, com.securetrack.services.CoreProtectionService::class.java).apply {
                 action = com.securetrack.services.CoreProtectionService.ACTION_CAPTURE_INTRUDER
             }
-            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-                context.startForegroundService(captureIntent)
-            } else {
-                context.startService(captureIntent)
+            
+            try {
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                    context.startForegroundService(captureIntent)
+                } else {
+                    context.startService(captureIntent)
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "FAILED to start capture service", e)
+                e.printStackTrace()
+                // Backup: Try starting via WorkManager if service blocked (impl later if confirmed)
             }
         }
     }

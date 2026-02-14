@@ -1,86 +1,90 @@
 [
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/activity_settings.xml",
-        "source": "com.securetrack.app-main-66:/layout/activity_settings.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\item_contact.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_contact.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/activity_setup_wizard.xml",
-        "source": "com.securetrack.app-main-66:/layout/activity_setup_wizard.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\step_welcome.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\step_welcome.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/step_welcome.xml",
-        "source": "com.securetrack.app-main-66:/layout/step_welcome.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\item_intruder_log.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_intruder_log.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/step_password.xml",
-        "source": "com.securetrack.app-main-66:/layout/step_password.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\item_command_holo.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_command_holo.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/activity_fake_shutdown.xml",
-        "source": "com.securetrack.app-main-66:/layout/activity_fake_shutdown.xml"
-    },
-    {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/activity_logs.xml",
-        "source": "com.securetrack.app-main-66:/layout/activity_logs.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\dialog_wipe_pin.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_wipe_pin.xml"
     },
     {
         "merged": "com.securetrack.app-mergeDebugResources-63:/layout/activity_main.xml",
         "source": "com.securetrack.app-main-66:/layout/activity_main.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/item_command_holo.xml",
-        "source": "com.securetrack.app-main-66:/layout/item_command_holo.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_logs.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_logs.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/step_complete.xml",
-        "source": "com.securetrack.app-main-66:/layout/step_complete.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\item_command.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_command.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/item_command.xml",
-        "source": "com.securetrack.app-main-66:/layout/item_command.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_fake_shutdown.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_fake_shutdown.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/item_contact.xml",
-        "source": "com.securetrack.app-main-66:/layout/item_contact.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\item_command_log.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_command_log.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/dialog_contact.xml",
-        "source": "com.securetrack.app-main-66:/layout/dialog_contact.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_setup_wizard.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_setup_wizard.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/item_command_log.xml",
-        "source": "com.securetrack.app-main-66:/layout/item_command_log.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\step_password.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\step_password.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/item_log_card.xml",
-        "source": "com.securetrack.app-main-66:/layout/item_log_card.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\step_complete.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\step_complete.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/activity_contacts.xml",
-        "source": "com.securetrack.app-main-66:/layout/activity_contacts.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\item_log_card.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\item_log_card.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/item_intruder_log.xml",
-        "source": "com.securetrack.app-main-66:/layout/item_intruder_log.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\step_permissions.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\step_permissions.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/step_pin.xml",
-        "source": "com.securetrack.app-main-66:/layout/step_pin.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\dialog_change_password.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_change_password.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/dialog_change_password.xml",
-        "source": "com.securetrack.app-main-66:/layout/dialog_change_password.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\step_pin.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\step_pin.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/dialog_wipe_pin.xml",
-        "source": "com.securetrack.app-main-66:/layout/dialog_wipe_pin.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_contacts.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_contacts.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/dialog_change_pin.xml",
-        "source": "com.securetrack.app-main-66:/layout/dialog_change_pin.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\dialog_contact.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_contact.xml"
     },
     {
-        "merged": "com.securetrack.app-mergeDebugResources-63:/layout/step_permissions.xml",
-        "source": "com.securetrack.app-main-66:/layout/step_permissions.xml"
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-mergeDebugResources-63:\\layout\\dialog_change_pin.xml",
+        "source": "C:\\Users\\junaidpasha\\.gradle\\daemon\\8.4\\com.securetrack.app-main-66:\\layout\\dialog_change_pin.xml"
     }
 ]

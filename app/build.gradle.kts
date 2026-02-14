@@ -12,8 +12,8 @@ android {
         applicationId = "com.securetrack"
         minSdk = 29
         targetSdk = 34
-        versionCode = 4
-        versionName = "1.2.1"
+        versionCode = 9
+        versionName = "1.3.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
