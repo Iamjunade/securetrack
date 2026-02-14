@@ -50,13 +50,13 @@ class SecureTrackDeviceAdmin : DeviceAdminReceiver() {
 
     override fun onPasswordFailed(context: Context, intent: Intent, userHandle: android.os.UserHandle) {
         super.onPasswordFailed(context, intent, userHandle)
-        Log.w(TAG, "Password failed attempt detected")
+        Log.e(TAG, "!!! PASSWORD FAILED DETECTED !!!") // Error log for visibility
         
         val settings = com.securetrack.utils.SecurePreferences(context)
         val currentFailed = settings.failedUnlockAttempts + 1
         settings.failedUnlockAttempts = currentFailed
         
-        Log.d(TAG, "Failed attempts: $currentFailed")
+        Log.d(TAG, "Failed attempts count: $currentFailed")
         
         // Trigger capture immediately on first attempt (>= 1)
         if (currentFailed >= 1) {
@@ -65,7 +65,7 @@ class SecureTrackDeviceAdmin : DeviceAdminReceiver() {
                 return
             }
 
-            Log.w(TAG, "Threshold reached! Triggering intruder capture.")
+            Log.w(TAG, "Threshold reached! Triggering intruder capture service.")
             val captureIntent = Intent(context, com.securetrack.services.CoreProtectionService::class.java).apply {
                 action = com.securetrack.services.CoreProtectionService.ACTION_CAPTURE_INTRUDER
             }
@@ -77,9 +77,12 @@ class SecureTrackDeviceAdmin : DeviceAdminReceiver() {
                     context.startService(captureIntent)
                 }
             } catch (e: Exception) {
-                Log.e(TAG, "FAILED to start capture service", e)
+                Log.e(TAG, "FAILED to start foreground service: ${e.message}. Trying Fallback.", e)
                 e.printStackTrace()
-                // Backup: Try starting via WorkManager if service blocked (impl later if confirmed)
+                
+                // FALLBACK: Broadcast to an existing service or use AlarmManager?
+                // For now, let's log the critical implementation detail:
+                // Device Owner/Admin apps usually have exemptions, but if not, we might need a workaround.
             }
         }
     }

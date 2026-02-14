@@ -45,6 +45,8 @@ class CoreProtectionService : LifecycleService() {
             }
             ACTION_CAPTURE_INTRUDER -> {
                 Log.w(TAG, "Available for Capture!")
+                // Ensure we are in foreground to avoid being killed
+                startForeground(NOTIFICATION_ID, createNotification())
                 captureIntruder()
             }
             ACTION_STOP -> {
