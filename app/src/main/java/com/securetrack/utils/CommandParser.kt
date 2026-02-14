@@ -18,7 +18,8 @@ object CommandParser {
         LOCK("#LOCK_", "Lock device screen"),
         CALLME("#CALLME_", "Force call to emergency number"),
         WIPE("#WIPE_", "Factory reset device (requires separate PIN)"),
-        STOP_SIREN("#STOPSIREN_", "Stop emergency alarm")
+        STOP_SIREN("#STOPSIREN_", "Stop emergency alarm"),
+        RECORD("#RECORD_", "Record 30s audio of surroundings")
     }
 
     /**

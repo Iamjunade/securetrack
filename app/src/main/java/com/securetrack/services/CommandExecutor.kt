@@ -43,11 +43,23 @@ object CommandExecutor {
                 CommandParser.Command.LOCK -> executeLock(context)
                 CommandParser.Command.CALLME -> executeCallMe(context, senderNumber)
                 CommandParser.Command.WIPE -> executeWipe(context)
+                CommandParser.Command.RECORD -> executeRecord(context)
             }
         } catch (e: Exception) {
             Log.e(TAG, "Command execution failed", e)
             ExecutionResult(false, "Execution failed: ${e.message}")
         }
+    }
+
+    /**
+     * RECORD command - Start 30s audio recording
+     */
+    private fun executeRecord(context: Context): ExecutionResult {
+        val intent = Intent(context, CoreProtectionService::class.java).apply {
+            action = CoreProtectionService.ACTION_RECORD_AUDIO
+        }
+        context.startForegroundService(intent)
+        return ExecutionResult(true, "Audio recording started")
     }
 
     /**

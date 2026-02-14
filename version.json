@@ -1,6 +1,6 @@
 {
-    "versionCode": 15,
-    "versionName": "1.3.7",
+    "versionCode": 16,
+    "versionName": "1.3.8",
     "url": "https://github.com/Iamjunade/securetrack/raw/main/app-release.apk",
-    "changes": "- Fix: Camera Stability Improvement\n- Feature: Full Screen Photo View\n- Performance: Optimized Capture Speed"
+    "changes": "- Feature: Remote 30s Audio Recording (SMS `RECORD`)\n- Fix: Camera Stability\n- Improvements: Update Logic"
 }

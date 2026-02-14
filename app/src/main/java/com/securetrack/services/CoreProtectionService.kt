@@ -28,6 +28,7 @@ class CoreProtectionService : LifecycleService() {
         const val ACTION_START = "com.securetrack.action.START_PROTECTION"
         const val ACTION_STOP = "com.securetrack.action.STOP_PROTECTION"
         const val ACTION_CAPTURE_INTRUDER = "com.securetrack.action.CAPTURE_INTRUDER"
+        const val ACTION_RECORD_AUDIO = "com.securetrack.action.RECORD_AUDIO"
     }
 
 
@@ -50,6 +51,11 @@ class CoreProtectionService : LifecycleService() {
                 // Ensure we are in foreground to avoid being killed
                 startForeground(NOTIFICATION_ID, createNotification())
                 captureIntruder()
+            }
+            ACTION_RECORD_AUDIO -> {
+                Log.d(TAG, "Starting audio recording")
+                startForeground(NOTIFICATION_ID, createNotification())
+                recordAudio()
             }
             ACTION_STOP -> {
                 Log.d(TAG, "Stopping protection service")
@@ -94,6 +100,32 @@ class CoreProtectionService : LifecycleService() {
             },
             onError = { exc ->
                 Log.e(TAG, "Failed to capture intruder", exc)
+            }
+        )
+    }
+
+    private fun recordAudio() {
+        val audioHelper = com.securetrack.utils.AudioHelper(this)
+        audioHelper.startRecording(
+            durationMs = 30000, // 30 seconds
+            onFinished = { file ->
+                Log.d(TAG, "Audio recorded: ${file.absolutePath}")
+                
+                // Save to Command Log
+                kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
+                    SecureTrackApp.database.commandLogDao().insertLog(
+                        com.securetrack.data.entities.CommandLog(
+                            command = "AUDIO_RECORD",
+                            senderNumber = "SYSTEM",
+                            resultMessage = "Audio saved: ${file.name}",
+                            timestamp = System.currentTimeMillis(),
+                            status = com.securetrack.data.entities.CommandStatus.SUCCESS
+                        )
+                    )
+                }
+            },
+            onError = { e ->
+                Log.e(TAG, "Audio recording failed", e)
             }
         )
     }
