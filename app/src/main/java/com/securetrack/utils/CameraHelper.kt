@@ -21,6 +21,8 @@ class CameraHelper(private val context: Context, private val lifecycleOwner: Lif
 
     private var imageCapture: ImageCapture? = null
     private val cameraExecutor: ExecutorService = Executors.newSingleThreadExecutor()
+    private var isCameraReady = false
+    private var pendingCaptureCallback: (() -> Unit)? = null
 
     init {
         startCamera()
@@ -44,6 +46,12 @@ class CameraHelper(private val context: Context, private val lifecycleOwner: Lif
                     lifecycleOwner, cameraSelector, imageCapture
                 )
                 Log.d("CameraHelper", "Camera initialized")
+                isCameraReady = true
+                
+                // Execute pending capture if any
+                pendingCaptureCallback?.invoke()
+                pendingCaptureCallback = null
+                
             } catch (exc: Exception) {
                 Log.e("CameraHelper", "Use case binding failed", exc)
             }
@@ -52,14 +60,18 @@ class CameraHelper(private val context: Context, private val lifecycleOwner: Lif
     }
 
     fun takeSilentSelfie(onImageSaved: (File) -> Unit, onError: (Exception) -> Unit) {
-        val imageCapture = imageCapture
-        if (imageCapture == null) {
-            Log.e("CameraHelper", "ImageCapture is NULL. Camera not initialized?")
-            onError(IllegalStateException("Camera not initialized"))
-            return
+        if (isCameraReady && imageCapture != null) {
+            captureInternal(onImageSaved, onError)
+        } else {
+            Log.d("CameraHelper", "Camera not ready yet, queuing capture request...")
+            pendingCaptureCallback = {
+                captureInternal(onImageSaved, onError)
+            }
         }
+    }
 
-        Log.d("CameraHelper", "Attempting to take picture...")
+    private fun captureInternal(onImageSaved: (File) -> Unit, onError: (Exception) -> Unit) {
+        val imageCapture = imageCapture ?: return
 
         val photoFile = File(
             context.filesDir, // Internal storage for security
